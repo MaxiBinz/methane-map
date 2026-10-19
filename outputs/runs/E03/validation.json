@@ -1,0 +1,130 @@
+[
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240823T173410_2423611_025",
+    "role": "positive_validation",
+    "known_points": 4,
+    "recovered_points": 0,
+    "components": 0,
+    "usable_pixels": 1548205,
+    "quality_grid_check": "pass",
+    "known_point_ids": [
+      "emi20240823t173410p11025-A",
+      "emi20240823t173410p11025-B",
+      "emi20240823t173410p11025-C",
+      "emi20240823t173410p11025-D"
+    ],
+    "recovered_point_ids": [],
+    "reference_head_quality": [
+      {
+        "catalog_id": "emi20240823t173410p11025-A",
+        "source_head_pixel_usable": false
+      },
+      {
+        "catalog_id": "emi20240823t173410p11025-B",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20240823t173410p11025-C",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20240823t173410p11025-D",
+        "source_head_pixel_usable": false
+      }
+    ],
+    "interpretation": "known-example neighborhood recovery, not independent sensor validation"
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+    "role": "positive_validation",
+    "known_points": 10,
+    "recovered_points": 1,
+    "components": 10,
+    "usable_pixels": 3192343,
+    "quality_grid_check": "pass",
+    "known_point_ids": [
+      "emi20250323t212330p14007-A",
+      "emi20250323t212330p14007-B",
+      "emi20250323t212330p14007-C",
+      "emi20250323t212330p14007-D",
+      "emi20250323t212330p14007-E",
+      "emi20250323t212330p14007-F",
+      "emi20250323t212330p14007-H",
+      "emi20250323t212330p14007-I",
+      "emi20250323t212330p14007-J",
+      "emi20250323t212330p14007-K"
+    ],
+    "recovered_point_ids": [
+      "emi20250323t212330p14007-A"
+    ],
+    "reference_head_quality": [
+      {
+        "catalog_id": "emi20250323t212330p14007-A",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-B",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-C",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-D",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-E",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-F",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-H",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-I",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-J",
+        "source_head_pixel_usable": true
+      },
+      {
+        "catalog_id": "emi20250323t212330p14007-K",
+        "source_head_pixel_usable": true
+      }
+    ],
+    "interpretation": "known-example neighborhood recovery, not independent sensor validation"
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240216T201146_2404713_018",
+    "role": "control_validation",
+    "known_points": 0,
+    "recovered_points": 0,
+    "components": 0,
+    "usable_pixels": 559665,
+    "quality_grid_check": "pass",
+    "known_point_ids": [],
+    "recovered_point_ids": [],
+    "reference_head_quality": [],
+    "interpretation": "catalog-negative control; screened components are not established false positives"
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241004T165203_2427811_009",
+    "role": "control_validation",
+    "known_points": 0,
+    "recovered_points": 0,
+    "components": 0,
+    "usable_pixels": 12419,
+    "quality_grid_check": "pass",
+    "known_point_ids": [],
+    "recovered_point_ids": [],
+    "reference_head_quality": [],
+    "interpretation": "catalog-negative control; screened components are not established false positives"
+  }
+]

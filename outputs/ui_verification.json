@@ -1,0 +1,26 @@
+{
+  "verified_at": "2026-10-19T07:24:47.796211+00:00",
+  "url": "http://127.0.0.1:4173/?view=1",
+  "status": "pass",
+  "tested_widths_css_px": [
+    373,
+    1100
+  ],
+  "page_horizontal_overflow": false,
+  "scientific_images_loaded": 4,
+  "runtime_console_errors": 0,
+  "checks": [
+    "20 frozen footprints and 14 component markers mounted",
+    "ambiguous C selector renders correct 4-pixel/2729.6 ppm m MH-02-0042 detail and unresolved alternatives",
+    "published E map selection renders 11-pixel/5325.5 ppm m MH-15-0004 detail",
+    "scientific-image zoom and fit controls operate",
+    "source inspector shows the actual run summary definitions and frozen scope",
+    "final narrative preserves failed positive gate, no novelty and separate evidence categories",
+    "final images and report render at narrow and desktop widths"
+  ],
+  "scientific_limit": "UI verification does not validate methane",
+  "html_sha256": "da57682aa0997d06a0ae90d74e8905049e0cf633ad33ffff5007669728342401",
+  "build_manifest_sha256": "66aebcfa3010348687aa933e4e95a40b561ab7baaccb2092dd2ab0f2bef21c50",
+  "preview_image": "outputs/report_preview.png",
+  "preview_image_sha256": "a2a5e818635c3a77fdd3e03f5c07193c545c48431ae88091b90011d3ccf500cd"
+}

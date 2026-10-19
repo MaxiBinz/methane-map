@@ -1,0 +1,58 @@
+[
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240823T173410_2423611_025",
+    "role": "positive_validation",
+    "sigma": 3.0,
+    "component_count": 5,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240823T173410_2423611_025",
+    "role": "positive_validation",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+    "role": "positive_validation",
+    "sigma": 3.0,
+    "component_count": 113,
+    "baseline_component_count": 10
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+    "role": "positive_validation",
+    "sigma": 7.0,
+    "component_count": 1,
+    "baseline_component_count": 10
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240216T201146_2404713_018",
+    "role": "control_validation",
+    "sigma": 3.0,
+    "component_count": 7,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240216T201146_2404713_018",
+    "role": "control_validation",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241004T165203_2427811_009",
+    "role": "control_validation",
+    "sigma": 3.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241004T165203_2427811_009",
+    "role": "control_validation",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  }
+]

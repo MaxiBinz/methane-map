@@ -1,0 +1,11 @@
+{
+  "region": "Northern Delaware Basin, Permian Basin, United States",
+  "bbox": [-104.5, 31.0, -102.5, 33.0],
+  "max_scenes": 20,
+  "max_download_bytes": 5000000000,
+  "max_analysis_iterations": 5,
+  "collection_version": "002",
+  "selection_rule": "Freeze exact scene IDs and access outcome before screening; include documented positives and independently selected controls where data permit.",
+  "publication": "local_only"
+}
+

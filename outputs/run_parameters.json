@@ -1,0 +1,47 @@
+{
+  "started_at": "2026-10-19T07:16:20.592674+00:00",
+  "input_manifest_sha256": "2917a198c920428cb3666850836693af528d55837fdfdf57c733910dbe6ed93e",
+  "selection_sha256": "8058ddcdb9008eda3713e3bee6a4b4c78613e82d240f7de160345c10027ce36d",
+  "config": {
+    "min_enhancement_ppm_m": 500.0,
+    "background_sigma_multiplier": 5.0,
+    "min_sensor_snr": 5.0,
+    "min_pixels": 4,
+    "min_sensitivity": 0.1,
+    "background_tile_pixels": 128,
+    "min_background_pixels": 32,
+    "min_background_scale_ppm_m": 1.0,
+    "stripe_aspect_ratio": 12.0,
+    "stripe_min_length_pixels": 20,
+    "stripe_scene_fraction": 0.5
+  },
+  "catalog_distance_m": 300,
+  "catalog_time_seconds": 120,
+  "sensitivity_correction": "enhancement / sensitivity",
+  "sensor_uncertainty": "use supplied V002 UNCERT without dividing by sensitivity again",
+  "region_bbox": [
+    -104.5,
+    31,
+    -102.5,
+    33
+  ],
+  "provisional_limit": null,
+  "code_sha256": {
+    "catalog.py": "594316fe9a53e7fea3393ac3f3655668205dc8dccce9856aa4df7e80ae34fcad",
+    "nasa.py": "d62fdeb0ef7c1f9c39be093d5a3c882624d58dd6253a440fae981c8122c7fa0d",
+    "public_data.py": "62e80bd31b2496db5324c9f372f1aba6c244ece54e9e14fa2783c75b4293593d",
+    "detection.py": "c211d1c5bdbd7e02a6d65a16292b9143bf44e1b2dbeff28285fb4caf3f556e26",
+    "analysis.py": "35582d8cda2247e05ba1e64aa58cd278bf3c66c41fa37a7755ee2c27d6d8a1b0",
+    "acquire.py": "7285772b4efd3cc8d788c26d86ffea4bc54b6675a1796a1734caa2129f08ee19",
+    "__init__.py": "51c23db8dbf16117128c78e5e3dc0b4355c2f4aa862c5456fb8e49de7c136182",
+    "cli.py": "6818de643ae4610dcd8e617d202d5c2f889dd9f861dd43bd8d8d731a756c92b3",
+    "nasa_catalog.py": "d11be703f6e42fd82127c94af58450b2c0da207c7cf5d91c36d4367a059039aa",
+    "quality.py": "eaadefc35db9617f1df6fc77be5291aceeeff962c81afca546017ca65a471342",
+    "data.py": "60aa1da4b29be392478164b59205f53c41f3d176042568e6501713fbec34450b"
+  },
+  "environment_sha256": "5dd30af78d8ffd11b99539919617844bcf47e13c7f9fcba4ff2247595efc261b",
+  "reference_catalog_sha256": {
+    "carbonmapper_scene_plumes.json": "9f4d52159d1e2f1429c109241babcfc8428ae06131e02a59cd5c3d1dcc82123f",
+    "nasa_plume_cmr_same_scenes.json": "9d8bdf84c8b74263726c260c42e5fbef6db1511f778495c7820b12e0413b0455"
+  }
+}

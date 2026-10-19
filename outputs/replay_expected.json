@@ -1,0 +1,2111 @@
+{
+  "scene_metrics": [
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240823T173410_2423611_025",
+      "observedAt": "2024-08-23T17:34:10Z",
+      "role": "positive_validation",
+      "roi_unmasked_pixels": 1960195,
+      "valid_pixels": 1548205,
+      "quality_retained_fraction_in_roi": 0.7898219309813564,
+      "median_ppm_m": 0.7216188452459774,
+      "peak_ppm_m": 3366.577795772199,
+      "background_scale_ppm_m": 251.4498025969088,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 4,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 2,
+      "nasa_cloud_percent": 20.0,
+      "cm_cloud_percent": 25,
+      "grid_shape": [
+        2027,
+        2118
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 1548205,
+        "total_pixels": 4293186,
+        "valid_fraction": 0.36061912994219214,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": 0.7216188452459774,
+        "global_background_scale_ppm_m": 251.4498025969088,
+        "supra_threshold_pixels": 4,
+        "components_before_min_pixels": 3,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_01.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observedAt": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "roi_unmasked_pixels": 3857468,
+      "valid_pixels": 3192343,
+      "quality_retained_fraction_in_roi": 0.8275747199976773,
+      "median_ppm_m": -1.7304091019736634,
+      "peak_ppm_m": 4256.563918037985,
+      "background_scale_ppm_m": 256.0080492980249,
+      "candidate_count": 10,
+      "catalog_associated_components": 2,
+      "unmatched_components": 8,
+      "known_roi_points": 10,
+      "recovered_known_points": 1,
+      "known_head_pixels_usable": 10,
+      "nasa_cloud_percent": 17.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2661,
+        3170
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 3192343,
+        "total_pixels": 8435370,
+        "valid_fraction": 0.378447299881333,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -1.7304091019736634,
+        "global_background_scale_ppm_m": 256.0080492980249,
+        "supra_threshold_pixels": 267,
+        "components_before_min_pixels": 142,
+        "retained_components": 10
+      },
+      "map": "outputs/maps/scene_02.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240216T201146_2404713_018",
+      "observedAt": "2024-02-16T20:11:46Z",
+      "role": "control_validation",
+      "roi_unmasked_pixels": 745956,
+      "valid_pixels": 559665,
+      "quality_retained_fraction_in_roi": 0.7502654312050576,
+      "median_ppm_m": 0.9808318730766914,
+      "peak_ppm_m": 3133.8413533086105,
+      "background_scale_ppm_m": 243.16379140030074,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 14.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2016,
+        2160
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 559665,
+        "total_pixels": 4354560,
+        "valid_fraction": 0.1285238921957672,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": 0.9808318730766914,
+        "global_background_scale_ppm_m": 243.16379140030074,
+        "supra_threshold_pixels": 6,
+        "components_before_min_pixels": 3,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_03.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20241004T165203_2427811_009",
+      "observedAt": "2024-10-04T16:52:03Z",
+      "role": "control_validation",
+      "roi_unmasked_pixels": 24309,
+      "valid_pixels": 12419,
+      "quality_retained_fraction_in_roi": 0.5108807437574561,
+      "median_ppm_m": 22.357244455082032,
+      "peak_ppm_m": 1366.8000955621144,
+      "background_scale_ppm_m": 331.8719134185313,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 18.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        1883,
+        2261
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 12419,
+        "total_pixels": 4257463,
+        "valid_fraction": 0.0029169954031309257,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": 22.357244455082032,
+        "global_background_scale_ppm_m": 331.8719134185313,
+        "supra_threshold_pixels": 0,
+        "components_before_min_pixels": 0,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_04.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20231224T174545_2335812_007",
+      "observedAt": "2023-12-24T17:45:45Z",
+      "role": "search",
+      "roi_unmasked_pixels": 2131743,
+      "valid_pixels": 1563514,
+      "quality_retained_fraction_in_roi": 0.7334439470423968,
+      "median_ppm_m": -4.215169562462387,
+      "peak_ppm_m": 5930.803557950991,
+      "background_scale_ppm_m": 294.871864368619,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 3,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 3,
+      "nasa_cloud_percent": 27.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2023,
+        2125
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 1563514,
+        "total_pixels": 4298875,
+        "valid_fraction": 0.3637030618475764,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -4.215169562462387,
+        "global_background_scale_ppm_m": 294.871864368619,
+        "supra_threshold_pixels": 11,
+        "components_before_min_pixels": 7,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_05.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240127T195904_2402713_008",
+      "observedAt": "2024-01-27T19:59:04Z",
+      "role": "search",
+      "roi_unmasked_pixels": 19784,
+      "valid_pixels": 19784,
+      "quality_retained_fraction_in_roi": 1.0,
+      "median_ppm_m": -12.186492955721203,
+      "peak_ppm_m": 1181.2448246413812,
+      "background_scale_ppm_m": 257.4141000431483,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 18.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        1898,
+        2273
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 19784,
+        "total_pixels": 4314154,
+        "valid_fraction": 0.0045858353688811295,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -12.186492955721203,
+        "global_background_scale_ppm_m": 257.4141000431483,
+        "supra_threshold_pixels": 0,
+        "components_before_min_pixels": 0,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_06.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240212T214808_2404314_022",
+      "observedAt": "2024-02-12T21:48:08Z",
+      "role": "search",
+      "roi_unmasked_pixels": 944444,
+      "valid_pixels": 637661,
+      "quality_retained_fraction_in_roi": 0.6751707883156651,
+      "median_ppm_m": -2.417526990407366,
+      "peak_ppm_m": 5807.623744952036,
+      "background_scale_ppm_m": 279.2172824651193,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 1,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 16.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2016,
+        2156
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 637661,
+        "total_pixels": 4346496,
+        "valid_fraction": 0.14670691057808405,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -2.417526990407366,
+        "global_background_scale_ppm_m": 279.2172824651193,
+        "supra_threshold_pixels": 1,
+        "components_before_min_pixels": 1,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_07.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240212T214820_2404314_023",
+      "observedAt": "2024-02-12T21:48:20Z",
+      "role": "search",
+      "roi_unmasked_pixels": 2154064,
+      "valid_pixels": 1298592,
+      "quality_retained_fraction_in_roi": 0.60285673963262,
+      "median_ppm_m": -3.4412788664591956,
+      "peak_ppm_m": 6117.752459923163,
+      "background_scale_ppm_m": 272.95403459917895,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 3,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 2,
+      "nasa_cloud_percent": 39.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2016,
+        2143
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 1298592,
+        "total_pixels": 4320288,
+        "valid_fraction": 0.3005799613359109,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -3.4412788664591956,
+        "global_background_scale_ppm_m": 272.95403459917895,
+        "supra_threshold_pixels": 16,
+        "components_before_min_pixels": 11,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_08.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024",
+      "observedAt": "2024-02-12T21:48:32Z",
+      "role": "search",
+      "roi_unmasked_pixels": 1886200,
+      "valid_pixels": 1115890,
+      "quality_retained_fraction_in_roi": 0.5916074647439296,
+      "median_ppm_m": -4.092947900740111,
+      "peak_ppm_m": 4718.532046123294,
+      "background_scale_ppm_m": 274.98906465660326,
+      "candidate_count": 1,
+      "catalog_associated_components": 1,
+      "unmatched_components": 0,
+      "known_roi_points": 2,
+      "recovered_known_points": 1,
+      "known_head_pixels_usable": 1,
+      "nasa_cloud_percent": 44.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2018,
+        2131
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 1115890,
+        "total_pixels": 4300358,
+        "valid_fraction": 0.2594876984660347,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -4.092947900740111,
+        "global_background_scale_ppm_m": 274.98906465660326,
+        "supra_threshold_pixels": 11,
+        "components_before_min_pixels": 5,
+        "retained_components": 1
+      },
+      "map": "outputs/maps/scene_09.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240212T214843_2404314_025",
+      "observedAt": "2024-02-12T21:48:43Z",
+      "role": "search",
+      "roi_unmasked_pixels": 218881,
+      "valid_pixels": 101424,
+      "quality_retained_fraction_in_roi": 0.4633750759545141,
+      "median_ppm_m": -17.05543881429611,
+      "peak_ppm_m": 1309.1581797205204,
+      "background_scale_ppm_m": 277.83076098437846,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 30.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2019,
+        2119
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 101424,
+        "total_pixels": 4278261,
+        "valid_fraction": 0.02370682854552352,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -17.05543881429611,
+        "global_background_scale_ppm_m": 277.83076098437846,
+        "supra_threshold_pixels": 0,
+        "components_before_min_pixels": 0,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_10.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240727T195453_2420913_014",
+      "observedAt": "2024-07-27T19:54:53Z",
+      "role": "search",
+      "roi_unmasked_pixels": 194230,
+      "valid_pixels": 186683,
+      "quality_retained_fraction_in_roi": 0.961144004530711,
+      "median_ppm_m": -4.283099950357776,
+      "peak_ppm_m": 2949.863286807239,
+      "background_scale_ppm_m": 258.47701110771976,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 5.0,
+      "cm_cloud_percent": 25,
+      "grid_shape": [
+        1884,
+        2276
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 186683,
+        "total_pixels": 4287984,
+        "valid_fraction": 0.043536309836977004,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -4.283099950357776,
+        "global_background_scale_ppm_m": 258.47701110771976,
+        "supra_threshold_pixels": 0,
+        "components_before_min_pixels": 0,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_11.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002",
+      "observedAt": "2024-08-27T15:57:22Z",
+      "role": "search",
+      "roi_unmasked_pixels": 1120260,
+      "valid_pixels": 526806,
+      "quality_retained_fraction_in_roi": 0.4702533340474533,
+      "median_ppm_m": 0.08806250591296427,
+      "peak_ppm_m": 5843.419669481289,
+      "background_scale_ppm_m": 301.3376758336135,
+      "candidate_count": 1,
+      "catalog_associated_components": 1,
+      "unmatched_components": 0,
+      "known_roi_points": 1,
+      "recovered_known_points": 1,
+      "known_head_pixels_usable": 1,
+      "nasa_cloud_percent": 39.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2030,
+        2114
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 526806,
+        "total_pixels": 4291420,
+        "valid_fraction": 0.12275796822496983,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": 0.08806250591296427,
+        "global_background_scale_ppm_m": 301.3376758336135,
+        "supra_threshold_pixels": 7,
+        "components_before_min_pixels": 1,
+        "retained_components": 1
+      },
+      "map": "outputs/maps/scene_12.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20241004T165227_2427811_011",
+      "observedAt": "2024-10-04T16:52:27Z",
+      "role": "search",
+      "roi_unmasked_pixels": 1996012,
+      "valid_pixels": 1416548,
+      "quality_retained_fraction_in_roi": 0.7096891201054903,
+      "median_ppm_m": -0.12070913682328363,
+      "peak_ppm_m": 3168.3737768892033,
+      "background_scale_ppm_m": 265.40382951273733,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 1,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 1,
+      "nasa_cloud_percent": 27.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        1883,
+        2291
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 1416548,
+        "total_pixels": 4313953,
+        "valid_fraction": 0.3283642635884072,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -0.12070913682328363,
+        "global_background_scale_ppm_m": 265.40382951273733,
+        "supra_threshold_pixels": 8,
+        "components_before_min_pixels": 4,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_13.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20241130T180310_2433512_007",
+      "observedAt": "2024-11-30T18:03:10Z",
+      "role": "search",
+      "roi_unmasked_pixels": 215626,
+      "valid_pixels": 59515,
+      "quality_retained_fraction_in_roi": 0.2760103141550648,
+      "median_ppm_m": 7.516544375578158,
+      "peak_ppm_m": 3305.771435382375,
+      "background_scale_ppm_m": 278.84367527516525,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 30.0,
+      "cm_cloud_percent": 25,
+      "grid_shape": [
+        1895,
+        2250
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 59515,
+        "total_pixels": 4263750,
+        "valid_fraction": 0.013958369979478158,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": 7.516544375578158,
+        "global_background_scale_ppm_m": 278.84367527516525,
+        "supra_threshold_pixels": 0,
+        "components_before_min_pixels": 0,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_14.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032",
+      "observedAt": "2025-04-12T21:34:17Z",
+      "role": "search",
+      "roi_unmasked_pixels": 1136343,
+      "valid_pixels": 756862,
+      "quality_retained_fraction_in_roi": 0.6660506554799035,
+      "median_ppm_m": -0.18610077603226433,
+      "peak_ppm_m": 5960.884984585515,
+      "background_scale_ppm_m": 259.16253987182404,
+      "candidate_count": 1,
+      "catalog_associated_components": 1,
+      "unmatched_components": 0,
+      "known_roi_points": 1,
+      "recovered_known_points": 1,
+      "known_head_pixels_usable": 1,
+      "nasa_cloud_percent": 24.0,
+      "cm_cloud_percent": 25,
+      "grid_shape": [
+        2027,
+        2114
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 756862,
+        "total_pixels": 4285078,
+        "valid_fraction": 0.1766273566082111,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -0.18610077603226433,
+        "global_background_scale_ppm_m": 259.16253987182404,
+        "supra_threshold_pixels": 19,
+        "components_before_min_pixels": 6,
+        "retained_components": 1
+      },
+      "map": "outputs/maps/scene_15.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030",
+      "observedAt": "2025-04-20T18:23:09Z",
+      "role": "search",
+      "roi_unmasked_pixels": 1810430,
+      "valid_pixels": 1458220,
+      "quality_retained_fraction_in_roi": 0.8054550576382407,
+      "median_ppm_m": -1.5269750057961402,
+      "peak_ppm_m": 3401.0145163935904,
+      "background_scale_ppm_m": 196.18929191736166,
+      "candidate_count": 1,
+      "catalog_associated_components": 1,
+      "unmatched_components": 0,
+      "known_roi_points": 1,
+      "recovered_known_points": 1,
+      "known_head_pixels_usable": 1,
+      "nasa_cloud_percent": 17.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2015,
+        2148
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 1458220,
+        "total_pixels": 4328220,
+        "valid_fraction": 0.3369098613286755,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -1.5269750057961402,
+        "global_background_scale_ppm_m": 196.18929191736166,
+        "supra_threshold_pixels": 13,
+        "components_before_min_pixels": 6,
+        "retained_components": 1
+      },
+      "map": "outputs/maps/scene_16.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20250613T205432_2516413_032",
+      "observedAt": "2025-06-13T20:54:32Z",
+      "role": "search",
+      "roi_unmasked_pixels": 505782,
+      "valid_pixels": 482617,
+      "quality_retained_fraction_in_roi": 0.9541996354160488,
+      "median_ppm_m": -4.333637368024669,
+      "peak_ppm_m": 2950.4910991583633,
+      "background_scale_ppm_m": 315.80304868604213,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 11.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        2016,
+        2135
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 482617,
+        "total_pixels": 4304160,
+        "valid_fraction": 0.11212803427381882,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -4.333637368024669,
+        "global_background_scale_ppm_m": 315.80304868604213,
+        "supra_threshold_pixels": 0,
+        "components_before_min_pixels": 0,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_17.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20250727T193810_2520813_006",
+      "observedAt": "2025-07-27T19:38:10Z",
+      "role": "search",
+      "roi_unmasked_pixels": 838138,
+      "valid_pixels": 782742,
+      "quality_retained_fraction_in_roi": 0.9339058723026519,
+      "median_ppm_m": -1.8919820031121217,
+      "peak_ppm_m": 3889.062029494968,
+      "background_scale_ppm_m": 300.5116031466451,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 4.0,
+      "cm_cloud_percent": 25,
+      "grid_shape": [
+        1891,
+        2295
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 782742,
+        "total_pixels": 4339845,
+        "valid_fraction": 0.18036174102992159,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -1.8919820031121217,
+        "global_background_scale_ppm_m": 300.5116031466451,
+        "supra_threshold_pixels": 2,
+        "components_before_min_pixels": 2,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_18.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20250808T144449_2522010_003",
+      "observedAt": "2025-08-08T14:44:49Z",
+      "role": "search",
+      "roi_unmasked_pixels": 239618,
+      "valid_pixels": 184712,
+      "quality_retained_fraction_in_roi": 0.7708602859551452,
+      "median_ppm_m": -8.166503795966428,
+      "peak_ppm_m": 2549.6488387124177,
+      "background_scale_ppm_m": 344.4852832092411,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 43.0,
+      "cm_cloud_percent": 0,
+      "grid_shape": [
+        1896,
+        2278
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 184712,
+        "total_pixels": 4319088,
+        "valid_fraction": 0.042766435877203704,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -8.166503795966428,
+        "global_background_scale_ppm_m": 344.4852832092411,
+        "supra_threshold_pixels": 0,
+        "components_before_min_pixels": 0,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_19.png"
+    },
+    {
+      "granule": "EMIT_L2B_CH4ENH_002_20250922T204933_2526514_006",
+      "observedAt": "2025-09-22T20:49:33Z",
+      "role": "search",
+      "roi_unmasked_pixels": 36227,
+      "valid_pixels": 13213,
+      "quality_retained_fraction_in_roi": 0.36472796532972646,
+      "median_ppm_m": -14.095102631993031,
+      "peak_ppm_m": 5000.218051526004,
+      "background_scale_ppm_m": 302.04362965116354,
+      "candidate_count": 0,
+      "catalog_associated_components": 0,
+      "unmatched_components": 0,
+      "known_roi_points": 0,
+      "recovered_known_points": 0,
+      "known_head_pixels_usable": 0,
+      "nasa_cloud_percent": 77.0,
+      "cm_cloud_percent": 25,
+      "grid_shape": [
+        1886,
+        2278
+      ],
+      "grid_crs": "EPSG:4326",
+      "quality_grid_check": "passed exact GLT and integer-window alignment",
+      "diagnostics": {
+        "method": "robust_tile_background_connected_components_v1",
+        "interpretation": "exploratory enhancement screen; not independently verified methane",
+        "config": {
+          "min_enhancement_ppm_m": 500.0,
+          "background_sigma_multiplier": 5.0,
+          "min_sensor_snr": 5.0,
+          "min_pixels": 4,
+          "min_sensitivity": 0.1,
+          "background_tile_pixels": 128,
+          "min_background_pixels": 32,
+          "min_background_scale_ppm_m": 1.0,
+          "stripe_aspect_ratio": 12.0,
+          "stripe_min_length_pixels": 20,
+          "stripe_scene_fraction": 0.5
+        },
+        "valid_pixels": 13213,
+        "total_pixels": 4296308,
+        "valid_fraction": 0.003075431277273417,
+        "sensitivity_available": true,
+        "sensor_uncertainty_available": true,
+        "cloud_or_surface_quality_mask_available": true,
+        "global_background_median_ppm_m": -14.095102631993031,
+        "global_background_scale_ppm_m": 302.04362965116354,
+        "supra_threshold_pixels": 0,
+        "components_before_min_pixels": 0,
+        "retained_components": 0
+      },
+      "map": "outputs/maps/scene_20.png"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "MH-02-0020",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "E",
+      "latitude": 32.23751428195233,
+      "longitude": -103.51371145425802,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -103.51354878450195,
+                32.2370262726841
+              ],
+              [
+                -103.5140910170222,
+                32.2370262726841
+              ],
+              [
+                -103.5140910170222,
+                32.236484040163845
+              ],
+              [
+                -103.51463324954246,
+                32.236484040163845
+              ],
+              [
+                -103.51463324954246,
+                32.23756850520435
+              ],
+              [
+                -103.51354878450195,
+                32.23756850520435
+              ],
+              [
+                -103.51354878450195,
+                32.2370262726841
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -103.51354878450195,
+                32.23756850520435
+              ],
+              [
+                -103.51354878450195,
+                32.23811073772461
+              ],
+              [
+                -103.51300655198169,
+                32.23811073772461
+              ],
+              [
+                -103.51300655198169,
+                32.23756850520435
+              ],
+              [
+                -103.51354878450195,
+                32.23756850520435
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -103.51246431946143,
+                32.238652970244864
+              ],
+              [
+                -103.51246431946143,
+                32.23811073772461
+              ],
+              [
+                -103.51300655198169,
+                32.23811073772461
+              ],
+              [
+                -103.51300655198169,
+                32.238652970244864
+              ],
+              [
+                -103.51246431946143,
+                32.238652970244864
+              ]
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 5,
+      "peak_ppm_m": 3053.8357934822684,
+      "mean_ppm_m": 2225.6391502875013,
+      "median_ppm_m": 2194.600740050761,
+      "median_sensor_snr": 6.642185006410985,
+      "area_m2": 15359.450372612075,
+      "sensor_uncertainty_median_ppm_m": 317.3774108886719,
+      "local_annulus_contrast_sigma": 5.6983438010795116,
+      "sensitivity_median": 1.0601811408996582
+    },
+    {
+      "candidate_id": "MH-02-0021",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "E",
+      "latitude": 32.236484040163845,
+      "longitude": -103.5159888308431,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.51625994710322,
+              32.2370262726841
+            ],
+            [
+              -103.51625994710322,
+              32.236484040163845
+            ],
+            [
+              -103.51680217962348,
+              32.236484040163845
+            ],
+            [
+              -103.51680217962348,
+              32.235941807643584
+            ],
+            [
+              -103.51571771458298,
+              32.235941807643584
+            ],
+            [
+              -103.51571771458298,
+              32.236484040163845
+            ],
+            [
+              -103.51517548206272,
+              32.236484040163845
+            ],
+            [
+              -103.51517548206272,
+              32.2370262726841
+            ],
+            [
+              -103.51625994710322,
+              32.2370262726841
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 4,
+      "peak_ppm_m": 2411.530465131593,
+      "mean_ppm_m": 2387.849804038493,
+      "median_ppm_m": 2387.849804038493,
+      "median_sensor_snr": 6.458506517437193,
+      "area_m2": 12287.673316520308,
+      "sensor_uncertainty_median_ppm_m": 356.3247528076172,
+      "local_annulus_contrast_sigma": 6.383913402505866,
+      "sensitivity_median": 0.9099184572696686
+    },
+    {
+      "candidate_id": "MH-02-0042",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "C",
+      "latitude": 32.11841290887802,
+      "longitude": -103.90693847794793,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.90775182672833,
+              32.11881958326821
+            ],
+            [
+              -103.90775182672833,
+              32.11827735074795
+            ],
+            [
+              -103.90720959420807,
+              32.11827735074795
+            ],
+            [
+              -103.90720959420807,
+              32.1177351182277
+            ],
+            [
+              -103.90666736168781,
+              32.1177351182277
+            ],
+            [
+              -103.90666736168781,
+              32.11827735074795
+            ],
+            [
+              -103.90612512916755,
+              32.11827735074795
+            ],
+            [
+              -103.90612512916755,
+              32.11881958326821
+            ],
+            [
+              -103.90775182672833,
+              32.11881958326821
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 4,
+      "peak_ppm_m": 2729.616651553563,
+      "mean_ppm_m": 2354.5262787137026,
+      "median_ppm_m": 2409.787735519482,
+      "median_sensor_snr": 7.59150903425384,
+      "area_m2": 12300.62937648399,
+      "sensor_uncertainty_median_ppm_m": 316.7090148925781,
+      "local_annulus_contrast_sigma": 8.708646037979621,
+      "sensitivity_median": 0.9929869174957275
+    },
+    {
+      "candidate_id": "MH-02-0059",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "C",
+      "latitude": 32.04778712311464,
+      "longitude": -103.55828296742312,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.55855408368322,
+              32.048329355634884
+            ],
+            [
+              -103.55855408368322,
+              32.047787123114624
+            ],
+            [
+              -103.55909631620348,
+              32.047787123114624
+            ],
+            [
+              -103.55909631620348,
+              32.04724489059437
+            ],
+            [
+              -103.55801185116297,
+              32.04724489059437
+            ],
+            [
+              -103.55801185116297,
+              32.047787123114624
+            ],
+            [
+              -103.55746961864271,
+              32.047787123114624
+            ],
+            [
+              -103.55746961864271,
+              32.048329355634884
+            ],
+            [
+              -103.55855408368322,
+              32.048329355634884
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 4,
+      "peak_ppm_m": 1481.7407403561915,
+      "mean_ppm_m": 1449.378423522422,
+      "median_ppm_m": 1449.378423522422,
+      "median_sensor_snr": 5.188468337289004,
+      "area_m2": 12312.326314551767,
+      "sensor_uncertainty_median_ppm_m": 279.0859069824219,
+      "local_annulus_contrast_sigma": 6.267544012371276,
+      "sensitivity_median": 1.1644463539123535
+    },
+    {
+      "candidate_id": "MH-02-0064",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "C",
+      "latitude": 31.997359498730784,
+      "longitude": -104.06242365313142,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -104.06283032752165,
+                31.996817266210527
+              ],
+              [
+                -104.0633725600419,
+                31.996817266210527
+              ],
+              [
+                -104.0633725600419,
+                31.997359498730784
+              ],
+              [
+                -104.06283032752165,
+                31.997359498730784
+              ],
+              [
+                -104.06283032752165,
+                31.996817266210527
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -104.06283032752165,
+                31.99790173125104
+              ],
+              [
+                -104.06174586248113,
+                31.99790173125104
+              ],
+              [
+                -104.06174586248113,
+                31.996817266210527
+              ],
+              [
+                -104.06228809500139,
+                31.996817266210527
+              ],
+              [
+                -104.06228809500139,
+                31.997359498730784
+              ],
+              [
+                -104.06283032752165,
+                31.997359498730784
+              ],
+              [
+                -104.06283032752165,
+                31.99790173125104
+              ]
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 4,
+      "peak_ppm_m": 1944.7268580455086,
+      "mean_ppm_m": 1712.0524281440094,
+      "median_ppm_m": 1698.93958201924,
+      "median_sensor_snr": 5.832318215338592,
+      "area_m2": 12315.734546019698,
+      "sensor_uncertainty_median_ppm_m": 288.9127197265625,
+      "local_annulus_contrast_sigma": 2.8212073833221276,
+      "sensitivity_median": 1.1139562129974365
+    },
+    {
+      "candidate_id": "MH-02-0075",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "C",
+      "latitude": 31.953438664590017,
+      "longitude": -103.6699828665959,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.6707962153763,
+              31.953980897110274
+            ],
+            [
+              -103.6707962153763,
+              31.953438664590017
+            ],
+            [
+              -103.67025398285604,
+              31.953438664590017
+            ],
+            [
+              -103.67025398285604,
+              31.95289643206976
+            ],
+            [
+              -103.66916951781552,
+              31.95289643206976
+            ],
+            [
+              -103.66916951781552,
+              31.953438664590017
+            ],
+            [
+              -103.66971175033578,
+              31.953438664590017
+            ],
+            [
+              -103.66971175033578,
+              31.953980897110274
+            ],
+            [
+              -103.6707962153763,
+              31.953980897110274
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 4,
+      "peak_ppm_m": 1684.9284293020683,
+      "mean_ppm_m": 1643.6938082808506,
+      "median_ppm_m": 1643.6938082808506,
+      "median_sensor_snr": 5.4781551656315814,
+      "area_m2": 12323.928238564986,
+      "sensor_uncertainty_median_ppm_m": 295.13465881347656,
+      "local_annulus_contrast_sigma": 6.41500861944483,
+      "sensitivity_median": 1.1571958661079407
+    },
+    {
+      "candidate_id": "MH-02-0082",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "C",
+      "latitude": 31.915934248605627,
+      "longitude": -103.84864848202042,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.84919071454064,
+              31.916566853212586
+            ],
+            [
+              -103.84919071454064,
+              31.91602462069233
+            ],
+            [
+              -103.8497329470609,
+              31.91602462069233
+            ],
+            [
+              -103.8497329470609,
+              31.915482388172073
+            ],
+            [
+              -103.84756401697987,
+              31.915482388172073
+            ],
+            [
+              -103.84756401697987,
+              31.91602462069233
+            ],
+            [
+              -103.84810624950012,
+              31.91602462069233
+            ],
+            [
+              -103.84810624950012,
+              31.916566853212586
+            ],
+            [
+              -103.84919071454064,
+              31.916566853212586
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 6,
+      "peak_ppm_m": 2125.0329589253074,
+      "mean_ppm_m": 1769.8248458055543,
+      "median_ppm_m": 1646.115460231709,
+      "median_sensor_snr": 5.275663390832119,
+      "area_m2": 18491.42870550889,
+      "sensor_uncertainty_median_ppm_m": 312.7914733886719,
+      "local_annulus_contrast_sigma": 6.3148627314359365,
+      "sensitivity_median": 1.0631080865859985
+    },
+    {
+      "candidate_id": "MH-02-0097",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "C",
+      "latitude": 31.833171491597156,
+      "longitude": -104.24111638018192,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -104.24176705920625,
+              31.83414751013362
+            ],
+            [
+              -104.24176705920625,
+              31.833605277613362
+            ],
+            [
+              -104.2423092917265,
+              31.833605277613362
+            ],
+            [
+              -104.2423092917265,
+              31.83252081257285
+            ],
+            [
+              -104.24014036164547,
+              31.83252081257285
+            ],
+            [
+              -104.24014036164547,
+              31.833063045093105
+            ],
+            [
+              -104.23959812912523,
+              31.833063045093105
+            ],
+            [
+              -104.23959812912523,
+              31.833605277613362
+            ],
+            [
+              -104.241224826686,
+              31.833605277613362
+            ],
+            [
+              -104.241224826686,
+              31.83414751013362
+            ],
+            [
+              -104.24176705920625,
+              31.83414751013362
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 10,
+      "peak_ppm_m": 3155.939011091137,
+      "mean_ppm_m": 2557.6023605648497,
+      "median_ppm_m": 2474.9190141899544,
+      "median_sensor_snr": 6.446389418849167,
+      "area_m2": 30841.173295447574,
+      "sensor_uncertainty_median_ppm_m": 390.2305603027344,
+      "local_annulus_contrast_sigma": 7.248061505107964,
+      "sensitivity_median": 0.8554596900939941
+    },
+    {
+      "candidate_id": "MH-02-0098",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "C",
+      "latitude": 31.833024314198806,
+      "longitude": -104.24428456733601,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -104.24556268684805,
+              31.833605277613362
+            ],
+            [
+              -104.24556268684805,
+              31.833063045093105
+            ],
+            [
+              -104.24502045432779,
+              31.833063045093105
+            ],
+            [
+              -104.24502045432779,
+              31.83252081257285
+            ],
+            [
+              -104.24285152424676,
+              31.83252081257285
+            ],
+            [
+              -104.24285152424676,
+              31.833063045093105
+            ],
+            [
+              -104.24393598928727,
+              31.833063045093105
+            ],
+            [
+              -104.24393598928727,
+              31.833605277613362
+            ],
+            [
+              -104.24556268684805,
+              31.833605277613362
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 7,
+      "peak_ppm_m": 3552.048162236679,
+      "mean_ppm_m": 2320.205145237371,
+      "median_ppm_m": 1906.4419467383193,
+      "median_sensor_snr": 5.283427222379403,
+      "area_m2": 21588.82679678277,
+      "sensor_uncertainty_median_ppm_m": 340.169189453125,
+      "local_annulus_contrast_sigma": 5.578994416929545,
+      "sensitivity_median": 0.8984810709953308
+    },
+    {
+      "candidate_id": "MH-02-0128",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "role": "positive_validation",
+      "category": "C",
+      "latitude": 31.667546568284852,
+      "longitude": -104.32811758805707,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -104.32852426244726,
+              31.66822435893517
+            ],
+            [
+              -104.32852426244726,
+              31.6665976613744
+            ],
+            [
+              -104.32798202992701,
+              31.6665976613744
+            ],
+            [
+              -104.32798202992701,
+              31.667682126414913
+            ],
+            [
+              -104.32743979740675,
+              31.667682126414913
+            ],
+            [
+              -104.32743979740675,
+              31.66822435893517
+            ],
+            [
+              -104.32852426244726,
+              31.66822435893517
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 4,
+      "peak_ppm_m": 1860.2595054312637,
+      "mean_ppm_m": 1813.5984445877211,
+      "median_ppm_m": 1813.5984445877211,
+      "median_sensor_snr": 5.496009115881288,
+      "area_m2": 12357.81562854639,
+      "sensor_uncertainty_median_ppm_m": 331.1371154785156,
+      "local_annulus_contrast_sigma": 6.614692268316451,
+      "sensitivity_median": 0.9456939399242401
+    },
+    {
+      "candidate_id": "MH-09-0004",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024",
+      "observed_at": "2024-02-12T21:48:32Z",
+      "role": "search",
+      "category": "E",
+      "latitude": 32.01281312555814,
+      "longitude": -102.5148920403194,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -102.51529871470954,
+              32.013626474338515
+            ],
+            [
+              -102.51529871470954,
+              32.01199977677775
+            ],
+            [
+              -102.5147564821893,
+              32.01199977677775
+            ],
+            [
+              -102.5147564821893,
+              32.01254200929801
+            ],
+            [
+              -102.51421424966904,
+              32.01254200929801
+            ],
+            [
+              -102.51421424966904,
+              32.01308424181826
+            ],
+            [
+              -102.5147564821893,
+              32.01308424181826
+            ],
+            [
+              -102.5147564821893,
+              32.013626474338515
+            ],
+            [
+              -102.51529871470954,
+              32.013626474338515
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 4,
+      "peak_ppm_m": 3259.9757986438676,
+      "mean_ppm_m": 3081.275218202323,
+      "median_ppm_m": 3030.3300485649233,
+      "median_sensor_snr": 6.113861546281276,
+      "area_m2": 12328.057049721676,
+      "sensor_uncertainty_median_ppm_m": 502.3357849121094,
+      "local_annulus_contrast_sigma": 8.469542962502913,
+      "sensitivity_median": 0.8327763378620148
+    },
+    {
+      "candidate_id": "MH-12-0001",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002",
+      "observed_at": "2024-08-27T15:57:22Z",
+      "role": "search",
+      "category": "E",
+      "latitude": 31.01084488991298,
+      "longitude": -103.24711896258479,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -103.24731261705632,
+                31.011038544384498
+              ],
+              [
+                -103.24731261705632,
+                31.011580776904754
+              ],
+              [
+                -103.24677038453606,
+                31.011580776904754
+              ],
+              [
+                -103.24677038453606,
+                31.011038544384498
+              ],
+              [
+                -103.24568591949554,
+                31.011038544384498
+              ],
+              [
+                -103.24568591949554,
+                31.01049631186424
+              ],
+              [
+                -103.24731261705632,
+                31.01049631186424
+              ],
+              [
+                -103.24731261705632,
+                31.009954079343984
+              ],
+              [
+                -103.24785484957657,
+                31.009954079343984
+              ],
+              [
+                -103.24785484957657,
+                31.011038544384498
+              ],
+              [
+                -103.24731261705632,
+                31.011038544384498
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -103.24839708209683,
+                31.011038544384498
+              ],
+              [
+                -103.24839708209683,
+                31.011580776904754
+              ],
+              [
+                -103.24785484957657,
+                31.011580776904754
+              ],
+              [
+                -103.24785484957657,
+                31.011038544384498
+              ],
+              [
+                -103.24839708209683,
+                31.011038544384498
+              ]
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 7,
+      "peak_ppm_m": 5843.419669481289,
+      "mean_ppm_m": 3896.3950211801557,
+      "median_ppm_m": 3973.96832749831,
+      "median_sensor_snr": 8.610750230996333,
+      "area_m2": 21787.511363786507,
+      "sensor_uncertainty_median_ppm_m": 442.5467224121094,
+      "local_annulus_contrast_sigma": 9.423345003771221,
+      "sensitivity_median": 1.083314061164856
+    },
+    {
+      "candidate_id": "MH-15-0004",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032",
+      "observed_at": "2025-04-12T21:34:17Z",
+      "role": "search",
+      "category": "E",
+      "latitude": 31.23219547185082,
+      "longitude": -103.1588054815902,
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -103.15838648373365,
+                31.231727180128765
+              ],
+              [
+                -103.15947094877417,
+                31.231727180128765
+              ],
+              [
+                -103.15947094877417,
+                31.231184947608508
+              ],
+              [
+                -103.16001318129442,
+                31.231184947608508
+              ],
+              [
+                -103.16001318129442,
+                31.231727180128765
+              ],
+              [
+                -103.16055541381468,
+                31.231727180128765
+              ],
+              [
+                -103.16055541381468,
+                31.23226941264902
+              ],
+              [
+                -103.16001318129442,
+                31.23226941264902
+              ],
+              [
+                -103.16001318129442,
+                31.232811645169278
+              ],
+              [
+                -103.15892871625391,
+                31.232811645169278
+              ],
+              [
+                -103.15892871625391,
+                31.23226941264902
+              ],
+              [
+                -103.15838648373365,
+                31.23226941264902
+              ],
+              [
+                -103.15838648373365,
+                31.231727180128765
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -103.15838648373365,
+                31.232811645169278
+              ],
+              [
+                -103.15675978617288,
+                31.232811645169278
+              ],
+              [
+                -103.15675978617288,
+                31.23226941264902
+              ],
+              [
+                -103.15730201869314,
+                31.23226941264902
+              ],
+              [
+                -103.15730201869314,
+                31.231727180128765
+              ],
+              [
+                -103.1578442512134,
+                31.231727180128765
+              ],
+              [
+                -103.1578442512134,
+                31.23226941264902
+              ],
+              [
+                -103.15838648373365,
+                31.23226941264902
+              ],
+              [
+                -103.15838648373365,
+                31.232811645169278
+              ]
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 11,
+      "peak_ppm_m": 5325.472248110765,
+      "mean_ppm_m": 3508.400790145423,
+      "median_ppm_m": 3327.3919628216645,
+      "median_sensor_snr": 7.966095143644424,
+      "area_m2": 34161.69196265687,
+      "sensor_uncertainty_median_ppm_m": 404.7496643066406,
+      "local_annulus_contrast_sigma": 10.462958712600658,
+      "sensitivity_median": 0.9682458639144897
+    },
+    {
+      "candidate_id": "MH-16-0004",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030",
+      "observed_at": "2025-04-20T18:23:09Z",
+      "role": "search",
+      "category": "E",
+      "latitude": 32.675059776964545,
+      "longitude": -104.0483707936483,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -104.04927451451539,
+              32.6756923815715
+            ],
+            [
+              -104.04927451451539,
+              32.67515014905124
+            ],
+            [
+              -104.04873228199513,
+              32.67515014905124
+            ],
+            [
+              -104.04873228199513,
+              32.67406568401073
+            ],
+            [
+              -104.04819004947488,
+              32.67406568401073
+            ],
+            [
+              -104.04819004947488,
+              32.67460791653099
+            ],
+            [
+              -104.04764781695462,
+              32.67460791653099
+            ],
+            [
+              -104.04764781695462,
+              32.6756923815715
+            ],
+            [
+              -104.04927451451539,
+              32.6756923815715
+            ]
+          ]
+        ]
+      },
+      "pixel_count": 6,
+      "peak_ppm_m": 2951.255786075899,
+      "mean_ppm_m": 2279.852607186511,
+      "median_ppm_m": 2256.0685199186264,
+      "median_sensor_snr": 7.3051133410923965,
+      "area_m2": 18338.487351455908,
+      "sensor_uncertainty_median_ppm_m": 308.1243133544922,
+      "local_annulus_contrast_sigma": 6.440237348464646,
+      "sensitivity_median": 0.9269435405731201
+    }
+  ],
+  "fields": [
+    "candidate_id",
+    "scene_id",
+    "observed_at",
+    "role",
+    "category",
+    "latitude",
+    "longitude",
+    "geometry",
+    "pixel_count",
+    "peak_ppm_m",
+    "mean_ppm_m",
+    "median_ppm_m",
+    "median_sensor_snr",
+    "area_m2",
+    "sensor_uncertainty_median_ppm_m",
+    "local_annulus_contrast_sigma",
+    "sensitivity_median"
+  ]
+}

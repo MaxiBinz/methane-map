@@ -1,0 +1,24 @@
+{
+  "finished_at": "2026-10-19T07:02:40.166393+00:00",
+  "scenes_analyzed": 4,
+  "date_start": "2024-02-16T20:11:46Z",
+  "date_end": "2025-03-23T21:23:30Z",
+  "distinct_dates": 4,
+  "roles": {
+    "positive_validation": 2,
+    "control_validation": 2,
+    "search": 0
+  },
+  "usable_pixel_observations": 5312632,
+  "screened_components": 10,
+  "category_E": 2,
+  "category_C": 8,
+  "independently_corroborated_new_sources": 0,
+  "novelty_established": false,
+  "positive_scenes_with_association": 1,
+  "positive_scenes_examined": 2,
+  "control_scenes_examined": 2,
+  "validation_scope": "IO/quality alignment and limited known-example plus catalog-negative checks; no population sensitivity or false-positive calibration",
+  "search_scope": "16 frozen granules, clipped to the fixed ROI; exploratory hypotheses only",
+  "provisional": true
+}

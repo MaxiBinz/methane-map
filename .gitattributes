@@ -1,0 +1,16 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.geojson text eol=lf
+*.png binary
+*.tif binary
+*.zip binary
+data/** -text
+outputs/** -text -whitespace
+report_app/dist/** -text -whitespace linguist-generated
+report_app/src/** linguist-vendored
+report_app/src/content/** -linguist-vendored
+report_app/docs/** linguist-documentation
+report_app/package-lock.json linguist-generated

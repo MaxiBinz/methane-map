@@ -1,0 +1,23 @@
+{
+  "downloads": [
+    {
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20241130T180310_003723.tif",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241130T180310_003723/preview.tif?assets=ch4-plume-emissions&width=311&height=375&resampling=nearest",
+      "bytes": 934128,
+      "sha256": "3f0f4b5914012eb678d24e64ac2160254a91350ff7cd522831234cefd49dc318",
+      "downloaded_at": "2026-10-18T21:47:33.223564+00:00",
+      "source_granule_id": "EMIT_L2B_CH4PLM_002_20241130T180310_003723",
+      "purpose": "known plume scientific crop validation"
+    },
+    {
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20241004T165227_003636.tif",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165227_003636/preview.tif?assets=ch4-plume-emissions&width=228&height=216&resampling=nearest",
+      "bytes": 394686,
+      "sha256": "bc32d3bee5f7ca95a7dfc03ee7198889993b0123714810160d9a54e30317c322",
+      "downloaded_at": "2026-10-18T21:47:34.510116+00:00",
+      "source_granule_id": "EMIT_L2B_CH4PLM_002_20241004T165227_003636",
+      "purpose": "known plume scientific crop validation"
+    }
+  ],
+  "total_bytes": 1328814
+}

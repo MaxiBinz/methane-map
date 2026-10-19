@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-10-19T07:02:33.166057+00:00",
+  "input_manifest_sha256": "2917a198c920428cb3666850836693af528d55837fdfdf57c733910dbe6ed93e",
+  "selection_sha256": "8058ddcdb9008eda3713e3bee6a4b4c78613e82d240f7de160345c10027ce36d",
+  "config": {
+    "min_enhancement_ppm_m": 500.0,
+    "background_sigma_multiplier": 5.0,
+    "min_sensor_snr": 5.0,
+    "min_pixels": 4,
+    "min_sensitivity": 0.1,
+    "background_tile_pixels": 128,
+    "min_background_pixels": 32,
+    "min_background_scale_ppm_m": 1.0,
+    "stripe_aspect_ratio": 12.0,
+    "stripe_min_length_pixels": 20,
+    "stripe_scene_fraction": 0.5
+  },
+  "catalog_distance_m": 300,
+  "catalog_time_seconds": 120,
+  "sensitivity_correction": "enhancement / sensitivity",
+  "sensor_uncertainty": "use supplied V002 UNCERT without dividing by sensitivity again",
+  "region_bbox": [
+    -104.5,
+    31,
+    -102.5,
+    33
+  ],
+  "provisional_limit": 4
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240823T173410_2423611_025",
+    "role": "positive_validation",
+    "sigma": 3.0,
+    "component_count": 5,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240823T173410_2423611_025",
+    "role": "positive_validation",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+    "role": "positive_validation",
+    "sigma": 3.0,
+    "component_count": 113,
+    "baseline_component_count": 10
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+    "role": "positive_validation",
+    "sigma": 7.0,
+    "component_count": 1,
+    "baseline_component_count": 10
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240216T201146_2404713_018",
+    "role": "control_validation",
+    "sigma": 3.0,
+    "component_count": 7,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240216T201146_2404713_018",
+    "role": "control_validation",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241004T165203_2427811_009",
+    "role": "control_validation",
+    "sigma": 3.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241004T165203_2427811_009",
+    "role": "control_validation",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20231224T174545_2335812_007",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 9,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20231224T174545_2335812_007",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240127T195904_2402713_008",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240127T195904_2402713_008",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240212T214808_2404314_022",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 2,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240212T214808_2404314_022",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240212T214820_2404314_023",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 9,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240212T214820_2404314_023",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 5,
+    "baseline_component_count": 1
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 1
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240212T214843_2404314_025",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240212T214843_2404314_025",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240727T195453_2420913_014",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240727T195453_2420913_014",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 2,
+    "baseline_component_count": 1
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 1,
+    "baseline_component_count": 1
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241004T165227_2427811_011",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 13,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241004T165227_2427811_011",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241130T180310_2433512_007",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20241130T180310_2433512_007",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 3,
+    "baseline_component_count": 1
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 1,
+    "baseline_component_count": 1
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 13,
+    "baseline_component_count": 1
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 1
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250613T205432_2516413_032",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 1,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250613T205432_2516413_032",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250727T193810_2520813_006",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 5,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250727T193810_2520813_006",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250808T144449_2522010_003",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 2,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250808T144449_2522010_003",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250922T204933_2526514_006",
+    "role": "search",
+    "sigma": 3.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  },
+  {
+    "granule": "EMIT_L2B_CH4ENH_002_20250922T204933_2526514_006",
+    "role": "search",
+    "sigma": 7.0,
+    "component_count": 0,
+    "baseline_component_count": 0
+  }
+]

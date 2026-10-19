@@ -1,0 +1,100 @@
+{
+  "reviewed_at": "2026-10-19T07:14:04.950337+00:00",
+  "review_type": "assistant visual inspection of all fourteen generated numeric-data map panels",
+  "figure": "outputs/maps/component_review.png",
+  "figure_sha256": "c426039b558e2f7bee8818a2c2b7294a0ba0041e74cc68ffd3cda620b22bc381",
+  "independent_scientific_validation": false,
+  "category_changes": 0,
+  "checks_not_performed": [
+    "radiance spectral fitting",
+    "surface reflectance comparison",
+    "independent wind comparison",
+    "independent sensor corroboration"
+  ],
+  "records": [
+    {
+      "candidate_id": "MH-02-0020",
+      "initial_category": "E",
+      "visual_note": "One of two threshold fragments in an elongated feature near the same published source head. Components are not independent plume counts.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0021",
+      "initial_category": "E",
+      "visual_note": "Adjacent to MH-02-0020 in the same elongated feature. Catalog association does not independently validate every surrounding pixel.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0042",
+      "initial_category": "C",
+      "visual_note": "Compact isolated bright cluster with little visible extension. Noise and surface spectral effects remain unresolved.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0059",
+      "initial_category": "C",
+      "visual_note": "Small compact cluster. The map alone does not establish plume morphology or a source.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0064",
+      "initial_category": "C",
+      "visual_note": "Part of a broader elongated feature; a published source head is visible farther away. The weak local-annulus contrast and plume-tail/surface alternatives require further checks.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0075",
+      "initial_category": "C",
+      "visual_note": "Small component near a cataloged source neighborhood and quality-excluded area. A separate emission cannot be inferred.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0082",
+      "initial_category": "C",
+      "visual_note": "Compact component close to a quality-excluded region. Residual cloud/surface effects cannot be rejected.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0097",
+      "initial_category": "C",
+      "visual_note": "One threshold fragment in an elongated feature also containing MH-02-0098. No wind or spectra establish methane or distinct source count.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0098",
+      "initial_category": "C",
+      "visual_note": "Adjacent to MH-02-0097 in the same visible elongated feature. Fragmentation remains an alternative to two events.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-02-0128",
+      "initial_category": "C",
+      "visual_note": "Compact component near excluded/footprint-edge context; surface and retrieval artifacts remain unresolved.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-09-0004",
+      "initial_category": "E",
+      "visual_note": "Component overlaps published NASA plume-outline context. The map reproduces an existing observation, not independent confirmation.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-12-0001",
+      "initial_category": "E",
+      "visual_note": "Catalog-associated component close to the region boundary. Nearby source context extends outside the fixed study box.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-15-0004",
+      "initial_category": "E",
+      "visual_note": "Catalog-associated bright feature with broader enhancement around the threshold support. The screened polygon is not the full physical plume.",
+      "novelty_established": false
+    },
+    {
+      "candidate_id": "MH-16-0004",
+      "initial_category": "E",
+      "visual_note": "Catalog-associated component with nearby excluded footprint context. No facility or rate is inferred.",
+      "novelty_established": false
+    }
+  ]
+}

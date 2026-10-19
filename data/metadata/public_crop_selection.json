@@ -1,0 +1,4237 @@
+{
+  "bbox": [
+    -104.5,
+    31,
+    -102.5,
+    33
+  ],
+  "retrieved_at": "2026-10-18T21:47:31.426702+00:00",
+  "catalog_count": 83,
+  "distinct_catalog_timestamps": 29,
+  "scenes": [
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20241130T180310_003723",
+      "timestamp": "2024-11-30T18:03:10Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241130T180310_003723/preview.tif?assets=ch4-plume-emissions&width=311&height=375&resampling=nearest",
+      "role": "positive_validation",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20241130T180310_003723",
+        "bbox": [
+          -103.09548751138416,
+          30.843488695625254,
+          -102.92685319758444,
+          31.04682589072139
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241130T180310_003723",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241130T180310_003723/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241130T180310_003723/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20241130T180310_003723/EMIT_L2B_CH4PLM_002_20241130T180310_003723.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.09548751138416,
+              30.843488695625254,
+              -102.92685319758444,
+              31.04682589072139
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              375,
+              311
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 4990.0244140625,
+                  "min": -903.2611694335938,
+                  "count": 11,
+                  "buckets": [
+                    709,
+                    5631,
+                    3222,
+                    214,
+                    50,
+                    10,
+                    2,
+                    0,
+                    0,
+                    5
+                  ]
+                },
+                "statistics": {
+                  "mean": 173.09259118155035,
+                  "stddev": 376.9416604041495,
+                  "maximum": 4990.0244140625,
+                  "minimum": -903.2611694335938,
+                  "valid_percent": 8.439871382636657
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.09548751138416,
+                    30.843488695625254
+                  ],
+                  [
+                    -102.92685319758444,
+                    30.843488695625254
+                  ],
+                  [
+                    -102.92685319758444,
+                    31.04682589072139
+                  ],
+                  [
+                    -103.09548751138416,
+                    31.04682589072139
+                  ],
+                  [
+                    -103.09548751138416,
+                    30.843488695625254
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.09548751138416,
+              0.0,
+              -0.000542232520256367,
+              31.04682589072139,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241130T180310_003723/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241130T180310_003723/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.09548751138416,
+                30.843488695625254
+              ],
+              [
+                -102.92685319758444,
+                30.843488695625254
+              ],
+              [
+                -102.92685319758444,
+                31.04682589072139
+              ],
+              [
+                -103.09548751138416,
+                31.04682589072139
+              ],
+              [
+                -103.09548751138416,
+                30.843488695625254
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-11-30T18:03:10Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 375,
+      "width": 311,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20241130T180310_003723.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20241004T165227_003636",
+      "timestamp": "2024-10-04T16:52:27Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165227_003636/preview.tif?assets=ch4-plume-emissions&width=228&height=216&resampling=nearest",
+      "role": "positive_validation",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20241004T165227_003636",
+        "bbox": [
+          -104.27918110310395,
+          32.695212752300726,
+          -104.15555208848549,
+          32.8123349766761
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165227_003636",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165227_003636/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165227_003636/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20241004T165227_003636/EMIT_L2B_CH4PLM_002_20241004T165227_003636.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -104.27918110310395,
+              32.695212752300726,
+              -104.15555208848549,
+              32.8123349766761
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              216,
+              228
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 1219.51611328125,
+                  "min": -575.4970092773438,
+                  "count": 11,
+                  "buckets": [
+                    10,
+                    21,
+                    45,
+                    57,
+                    51,
+                    37,
+                    26,
+                    7,
+                    8,
+                    7
+                  ]
+                },
+                "statistics": {
+                  "mean": 184.7663220260223,
+                  "stddev": 353.6064997978857,
+                  "maximum": 1219.51611328125,
+                  "minimum": -575.4970092773438,
+                  "valid_percent": 0.5462150747238467
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -104.27918110310395,
+                    32.695212752300726
+                  ],
+                  [
+                    -104.15555208848549,
+                    32.695212752300726
+                  ],
+                  [
+                    -104.15555208848549,
+                    32.8123349766761
+                  ],
+                  [
+                    -104.27918110310395,
+                    32.8123349766761
+                  ],
+                  [
+                    -104.27918110310395,
+                    32.695212752300726
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -104.27918110310395,
+              0.0,
+              -0.000542232520256367,
+              32.8123349766761,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165227_003636/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165227_003636/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -104.27918110310395,
+                32.695212752300726
+              ],
+              [
+                -104.15555208848549,
+                32.695212752300726
+              ],
+              [
+                -104.15555208848549,
+                32.8123349766761
+              ],
+              [
+                -104.27918110310395,
+                32.8123349766761
+              ],
+              [
+                -104.27918110310395,
+                32.695212752300726
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-10-04T16:52:27Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 216,
+      "width": 228,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20241004T165227_003636.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20241004T165215_003637",
+      "timestamp": "2024-10-04T16:52:15Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165215_003637/preview.tif?assets=ch4-plume-emissions&width=243&height=244&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20241004T165215_003637",
+        "bbox": [
+          -104.00372698281372,
+          32.22563938975871,
+          -103.87196448039143,
+          32.35794412470126
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165215_003637",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165215_003637/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165215_003637/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20241004T165215_003637/EMIT_L2B_CH4PLM_002_20241004T165215_003637.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -104.00372698281372,
+              32.22563938975871,
+              -103.87196448039143,
+              32.35794412470126
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              244,
+              243
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 1626.619384765625,
+                  "min": -804.5191040039062,
+                  "count": 11,
+                  "buckets": [
+                    16,
+                    60,
+                    138,
+                    247,
+                    260,
+                    130,
+                    44,
+                    30,
+                    10,
+                    7
+                  ]
+                },
+                "statistics": {
+                  "mean": 194.02196125265394,
+                  "stddev": 378.12234335871153,
+                  "maximum": 1626.619384765625,
+                  "minimum": -804.5191040039062,
+                  "valid_percent": 1.5887472171625177
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -104.00372698281372,
+                    32.22563938975871
+                  ],
+                  [
+                    -103.87196448039143,
+                    32.22563938975871
+                  ],
+                  [
+                    -103.87196448039143,
+                    32.35794412470126
+                  ],
+                  [
+                    -104.00372698281372,
+                    32.35794412470126
+                  ],
+                  [
+                    -104.00372698281372,
+                    32.22563938975871
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -104.00372698281372,
+              0.0,
+              -0.000542232520256367,
+              32.35794412470126,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165215_003637/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20241004T165215_003637/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -104.00372698281372,
+                32.22563938975871
+              ],
+              [
+                -103.87196448039143,
+                32.22563938975871
+              ],
+              [
+                -103.87196448039143,
+                32.35794412470126
+              ],
+              [
+                -104.00372698281372,
+                32.35794412470126
+              ],
+              [
+                -104.00372698281372,
+                32.22563938975871
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-10-04T16:52:15Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 244,
+      "width": 243,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20241004T165215_003637.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20240823T173421_003465",
+      "timestamp": "2024-08-23T17:34:21Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173421_003465/preview.tif?assets=ch4-plume-emissions&width=255&height=301&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20240823T173421_003465",
+        "bbox": [
+          -103.30424703168308,
+          30.95301966471709,
+          -103.1659777390177,
+          31.116231653314255
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173421_003465",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173421_003465/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173421_003465/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20240823T173421_003465/EMIT_L2B_CH4PLM_002_20240823T173421_003465.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.30424703168308,
+              30.95301966471709,
+              -103.1659777390177,
+              31.116231653314255
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              301,
+              255
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 3536.359375,
+                  "min": -825.7305297851562,
+                  "count": 11,
+                  "buckets": [
+                    118,
+                    1026,
+                    1410,
+                    295,
+                    31,
+                    2,
+                    4,
+                    1,
+                    3,
+                    1
+                  ]
+                },
+                "statistics": {
+                  "mean": 138.55185273261847,
+                  "stddev": 336.5683420636564,
+                  "maximum": 3536.359375,
+                  "minimum": -825.7305297851562,
+                  "valid_percent": 3.766529867761058
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.30424703168308,
+                    30.95301966471709
+                  ],
+                  [
+                    -103.1659777390177,
+                    30.95301966471709
+                  ],
+                  [
+                    -103.1659777390177,
+                    31.116231653314255
+                  ],
+                  [
+                    -103.30424703168308,
+                    31.116231653314255
+                  ],
+                  [
+                    -103.30424703168308,
+                    30.95301966471709
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.30424703168308,
+              0.0,
+              -0.000542232520256367,
+              31.116231653314255,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173421_003465/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173421_003465/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.30424703168308,
+                30.95301966471709
+              ],
+              [
+                -103.1659777390177,
+                30.95301966471709
+              ],
+              [
+                -103.1659777390177,
+                31.116231653314255
+              ],
+              [
+                -103.30424703168308,
+                31.116231653314255
+              ],
+              [
+                -103.30424703168308,
+                30.95301966471709
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-08-23T17:34:21Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 301,
+      "width": 255,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20240823T173421_003465.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20240823T173410_003462",
+      "timestamp": "2024-08-23T17:34:10Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173410_003462/preview.tif?assets=ch4-plume-emissions&width=230&height=245&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20240823T173410_003462",
+        "bbox": [
+          -103.99559349500994,
+          31.669851056496004,
+          -103.87088001535098,
+          31.802698023958815
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173410_003462",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173410_003462/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173410_003462/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20240823T173410_003462/EMIT_L2B_CH4PLM_002_20240823T173410_003462.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.99559349500994,
+              31.669851056496004,
+              -103.87088001535098,
+              31.802698023958815
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              245,
+              230
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 1831.9967041015625,
+                  "min": -814.7929077148438,
+                  "count": 11,
+                  "buckets": [
+                    15,
+                    75,
+                    225,
+                    215,
+                    140,
+                    54,
+                    7,
+                    6,
+                    7,
+                    1
+                  ]
+                },
+                "statistics": {
+                  "mean": 79.52303901006711,
+                  "stddev": 347.69287731421736,
+                  "maximum": 1831.9967041015625,
+                  "minimum": -814.7929077148438,
+                  "valid_percent": 1.3220940550133098
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.99559349500994,
+                    31.669851056496004
+                  ],
+                  [
+                    -103.87088001535098,
+                    31.669851056496004
+                  ],
+                  [
+                    -103.87088001535098,
+                    31.802698023958815
+                  ],
+                  [
+                    -103.99559349500994,
+                    31.802698023958815
+                  ],
+                  [
+                    -103.99559349500994,
+                    31.669851056496004
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.99559349500994,
+              0.0,
+              -0.000542232520256367,
+              31.802698023958815,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173410_003462/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240823T173410_003462/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.99559349500994,
+                31.669851056496004
+              ],
+              [
+                -103.87088001535098,
+                31.669851056496004
+              ],
+              [
+                -103.87088001535098,
+                31.802698023958815
+              ],
+              [
+                -103.99559349500994,
+                31.802698023958815
+              ],
+              [
+                -103.99559349500994,
+                31.669851056496004
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-08-23T17:34:10Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 245,
+      "width": 230,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20240823T173410_003462.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20240627T160544_003332",
+      "timestamp": "2024-06-27T16:05:44Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240627T160544_003332/preview.tif?assets=ch4-plume-emissions&width=212&height=207&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20240627T160544_003332",
+        "bbox": [
+          -103.24189029185305,
+          31.284323734593684,
+          -103.1269369975587,
+          31.396565866286753
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240627T160544_003332",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240627T160544_003332/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240627T160544_003332/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20240627T160544_003332/EMIT_L2B_CH4PLM_002_20240627T160544_003332.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.24189029185305,
+              31.284323734593684,
+              -103.1269369975587,
+              31.396565866286753
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              207,
+              212
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 1346.4801025390625,
+                  "min": -573.543212890625,
+                  "count": 11,
+                  "buckets": [
+                    1,
+                    5,
+                    12,
+                    15,
+                    9,
+                    5,
+                    5,
+                    5,
+                    6,
+                    2
+                  ]
+                },
+                "statistics": {
+                  "mean": 304.0521935096154,
+                  "stddev": 440.67049609008274,
+                  "maximum": 1346.4801025390625,
+                  "minimum": -573.543212890625,
+                  "valid_percent": 0.14811776501686263
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.24189029185305,
+                    31.284323734593684
+                  ],
+                  [
+                    -103.1269369975587,
+                    31.284323734593684
+                  ],
+                  [
+                    -103.1269369975587,
+                    31.396565866286753
+                  ],
+                  [
+                    -103.24189029185305,
+                    31.396565866286753
+                  ],
+                  [
+                    -103.24189029185305,
+                    31.284323734593684
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.24189029185305,
+              0.0,
+              -0.000542232520256367,
+              31.396565866286753,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240627T160544_003332/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240627T160544_003332/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.24189029185305,
+                31.284323734593684
+              ],
+              [
+                -103.1269369975587,
+                31.284323734593684
+              ],
+              [
+                -103.1269369975587,
+                31.396565866286753
+              ],
+              [
+                -103.24189029185305,
+                31.396565866286753
+              ],
+              [
+                -103.24189029185305,
+                31.284323734593684
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-06-27T16:05:44Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 207,
+      "width": 212,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20240627T160544_003332.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20240212T214832_002706",
+      "timestamp": "2024-02-12T21:48:32Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214832_002706/preview.tif?assets=ch4-plume-emissions&width=217&height=209&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20240212T214832_002706",
+        "bbox": [
+          -102.57331759437683,
+          31.956692059711546,
+          -102.4556531374812,
+          32.07001865644513
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214832_002706",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214832_002706/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214832_002706/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20240212T214832_002706/EMIT_L2B_CH4PLM_002_20240212T214832_002706.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -102.57331759437683,
+              31.956692059711546,
+              -102.4556531374812,
+              32.07001865644513
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              209,
+              217
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 4239.4931640625,
+                  "min": -830.0422973632812,
+                  "count": 11,
+                  "buckets": [
+                    13,
+                    40,
+                    30,
+                    4,
+                    8,
+                    1,
+                    5,
+                    2,
+                    0,
+                    1
+                  ]
+                },
+                "statistics": {
+                  "mean": 409.73043118990387,
+                  "stddev": 902.5282961382347,
+                  "maximum": 4239.4931640625,
+                  "minimum": -830.0422973632812,
+                  "valid_percent": 0.22931228364165543
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -102.57331759437683,
+                    31.956692059711546
+                  ],
+                  [
+                    -102.4556531374812,
+                    31.956692059711546
+                  ],
+                  [
+                    -102.4556531374812,
+                    32.07001865644513
+                  ],
+                  [
+                    -102.57331759437683,
+                    32.07001865644513
+                  ],
+                  [
+                    -102.57331759437683,
+                    31.956692059711546
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -102.57331759437683,
+              0.0,
+              -0.000542232520256367,
+              32.07001865644513,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214832_002706/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214832_002706/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -102.57331759437683,
+                31.956692059711546
+              ],
+              [
+                -102.4556531374812,
+                31.956692059711546
+              ],
+              [
+                -102.4556531374812,
+                32.07001865644513
+              ],
+              [
+                -102.57331759437683,
+                32.07001865644513
+              ],
+              [
+                -102.57331759437683,
+                31.956692059711546
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-02-12T21:48:32Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 209,
+      "width": 217,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20240212T214832_002706.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20240212T214820_002702",
+      "timestamp": "2024-02-12T21:48:20Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214820_002702/preview.tif?assets=ch4-plume-emissions&width=263&height=223&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20240212T214820_002702",
+        "bbox": [
+          -103.65832486740982,
+          32.5189871832174,
+          -103.5157177145824,
+          32.63990503523457
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214820_002702",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214820_002702/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214820_002702/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20240212T214820_002702/EMIT_L2B_CH4PLM_002_20240212T214820_002702.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.65832486740982,
+              32.5189871832174,
+              -103.5157177145824,
+              32.63990503523457
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              223,
+              263
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 2672.80517578125,
+                  "min": -727.1917724609375,
+                  "count": 11,
+                  "buckets": [
+                    24,
+                    255,
+                    419,
+                    220,
+                    51,
+                    3,
+                    3,
+                    4,
+                    3,
+                    2
+                  ]
+                },
+                "statistics": {
+                  "mean": 153.5192930640244,
+                  "stddev": 358.2664555948077,
+                  "maximum": 2672.80517578125,
+                  "minimum": -727.1917724609375,
+                  "valid_percent": 1.6777779672287676
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.65832486740982,
+                    32.5189871832174
+                  ],
+                  [
+                    -103.5157177145824,
+                    32.5189871832174
+                  ],
+                  [
+                    -103.5157177145824,
+                    32.63990503523457
+                  ],
+                  [
+                    -103.65832486740982,
+                    32.63990503523457
+                  ],
+                  [
+                    -103.65832486740982,
+                    32.5189871832174
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.65832486740982,
+              0.0,
+              -0.000542232520256367,
+              32.63990503523457,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214820_002702/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214820_002702/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.65832486740982,
+                32.5189871832174
+              ],
+              [
+                -103.5157177145824,
+                32.5189871832174
+              ],
+              [
+                -103.5157177145824,
+                32.63990503523457
+              ],
+              [
+                -103.65832486740982,
+                32.63990503523457
+              ],
+              [
+                -103.65832486740982,
+                32.5189871832174
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-02-12T21:48:20Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 223,
+      "width": 263,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20240212T214820_002702.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20240212T214808_002703",
+      "timestamp": "2024-02-12T21:48:08Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214808_002703/preview.tif?assets=ch4-plume-emissions&width=224&height=221&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20240212T214808_002703",
+        "bbox": [
+          -104.1148846494657,
+          32.549894436872016,
+          -103.99342456492826,
+          32.669727823848675
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214808_002703",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214808_002703/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214808_002703/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20240212T214808_002703/EMIT_L2B_CH4PLM_002_20240212T214808_002703.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -104.1148846494657,
+              32.549894436872016,
+              -103.99342456492826,
+              32.669727823848675
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              221,
+              224
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 3887.975830078125,
+                  "min": -738.5524291992188,
+                  "count": 11,
+                  "buckets": [
+                    33,
+                    137,
+                    138,
+                    33,
+                    14,
+                    4,
+                    8,
+                    0,
+                    1,
+                    1
+                  ]
+                },
+                "statistics": {
+                  "mean": 304.508722899729,
+                  "stddev": 585.7424722221721,
+                  "maximum": 3887.975830078125,
+                  "minimum": -738.5524291992188,
+                  "valid_percent": 0.7453943115707822
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -104.1148846494657,
+                    32.549894436872016
+                  ],
+                  [
+                    -103.99342456492826,
+                    32.549894436872016
+                  ],
+                  [
+                    -103.99342456492826,
+                    32.669727823848675
+                  ],
+                  [
+                    -104.1148846494657,
+                    32.669727823848675
+                  ],
+                  [
+                    -104.1148846494657,
+                    32.549894436872016
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -104.1148846494657,
+              0.0,
+              -0.000542232520256367,
+              32.669727823848675,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214808_002703/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20240212T214808_002703/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -104.1148846494657,
+                32.549894436872016
+              ],
+              [
+                -103.99342456492826,
+                32.549894436872016
+              ],
+              [
+                -103.99342456492826,
+                32.669727823848675
+              ],
+              [
+                -104.1148846494657,
+                32.669727823848675
+              ],
+              [
+                -104.1148846494657,
+                32.549894436872016
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2024-02-12T21:48:08Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 221,
+      "width": 224,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20240212T214808_002703.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20231224T174545_002261",
+      "timestamp": "2023-12-24T17:45:45Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174545_002261/preview.tif?assets=ch4-plume-emissions&width=222&height=211&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20231224T174545_002261",
+        "bbox": [
+          -103.6930277487067,
+          31.792395606073892,
+          -103.57265212920979,
+          31.906806667847984
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174545_002261",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174545_002261/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174545_002261/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20231224T174545_002261/EMIT_L2B_CH4PLM_002_20231224T174545_002261.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.6930277487067,
+              31.792395606073892,
+              -103.57265212920979,
+              31.906806667847984
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              211,
+              222
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 1423.86669921875,
+                  "min": -715.8883666992188,
+                  "count": 11,
+                  "buckets": [
+                    8,
+                    9,
+                    29,
+                    35,
+                    28,
+                    21,
+                    17,
+                    11,
+                    4,
+                    3
+                  ]
+                },
+                "statistics": {
+                  "mean": 197.79003314393938,
+                  "stddev": 434.5472922905373,
+                  "maximum": 1423.86669921875,
+                  "minimum": -715.8883666992188,
+                  "valid_percent": 0.3522479825797361
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.6930277487067,
+                    31.792395606073892
+                  ],
+                  [
+                    -103.57265212920979,
+                    31.792395606073892
+                  ],
+                  [
+                    -103.57265212920979,
+                    31.906806667847984
+                  ],
+                  [
+                    -103.6930277487067,
+                    31.906806667847984
+                  ],
+                  [
+                    -103.6930277487067,
+                    31.792395606073892
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.6930277487067,
+              0.0,
+              -0.000542232520256367,
+              31.906806667847984,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174545_002261/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174545_002261/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.6930277487067,
+                31.792395606073892
+              ],
+              [
+                -103.57265212920979,
+                31.792395606073892
+              ],
+              [
+                -103.57265212920979,
+                31.906806667847984
+              ],
+              [
+                -103.6930277487067,
+                31.906806667847984
+              ],
+              [
+                -103.6930277487067,
+                31.792395606073892
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-12-24T17:45:45Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 211,
+      "width": 222,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20231224T174545_002261.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20231224T174533_002250",
+      "timestamp": "2023-12-24T17:45:33Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174533_002250/preview.tif?assets=ch4-plume-emissions&width=304&height=233&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20231224T174533_002250",
+        "bbox": [
+          -103.76080681373874,
+          31.91168676053029,
+          -103.5959681275808,
+          32.038026937750026
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174533_002250",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174533_002250/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174533_002250/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20231224T174533_002250/EMIT_L2B_CH4PLM_002_20231224T174533_002250.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.76080681373874,
+              31.91168676053029,
+              -103.5959681275808,
+              32.038026937750026
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              233,
+              304
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 4279.2255859375,
+                  "min": -920.0648193359375,
+                  "count": 11,
+                  "buckets": [
+                    76,
+                    616,
+                    637,
+                    146,
+                    21,
+                    2,
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "statistics": {
+                  "mean": 179.75567044696464,
+                  "stddev": 396.1963782346818,
+                  "maximum": 4279.2255859375,
+                  "minimum": -920.0648193359375,
+                  "valid_percent": 2.116275129884798
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.76080681373874,
+                    31.91168676053029
+                  ],
+                  [
+                    -103.5959681275808,
+                    31.91168676053029
+                  ],
+                  [
+                    -103.5959681275808,
+                    32.038026937750026
+                  ],
+                  [
+                    -103.76080681373874,
+                    32.038026937750026
+                  ],
+                  [
+                    -103.76080681373874,
+                    31.91168676053029
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.76080681373874,
+              0.0,
+              -0.000542232520256367,
+              32.038026937750026,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174533_002250/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231224T174533_002250/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.76080681373874,
+                31.91168676053029
+              ],
+              [
+                -103.5959681275808,
+                31.91168676053029
+              ],
+              [
+                -103.5959681275808,
+                32.038026937750026
+              ],
+              [
+                -103.76080681373874,
+                32.038026937750026
+              ],
+              [
+                -103.76080681373874,
+                31.91168676053029
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-12-24T17:45:33Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 233,
+      "width": 304,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20231224T174533_002250.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20231201T183525_001999",
+      "timestamp": "2023-12-01T18:35:25Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231201T183525_001999/preview.tif?assets=ch4-plume-emissions&width=271&height=227&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20231201T183525_001999",
+        "bbox": [
+          -102.97944975204953,
+          30.93783715414985,
+          -102.83250473906006,
+          31.060923936248045
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231201T183525_001999",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231201T183525_001999/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231201T183525_001999/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20231201T183525_001999/EMIT_L2B_CH4PLM_002_20231201T183525_001999.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -102.97944975204953,
+              30.93783715414985,
+              -102.83250473906006,
+              31.060923936248045
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              227,
+              271
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 1494.5299072265625,
+                  "min": -947.8827514648438,
+                  "count": 11,
+                  "buckets": [
+                    11,
+                    22,
+                    91,
+                    200,
+                    335,
+                    256,
+                    92,
+                    59,
+                    10,
+                    5
+                  ]
+                },
+                "statistics": {
+                  "mean": 194.05663159111933,
+                  "stddev": 357.941271592566,
+                  "maximum": 1494.5299072265625,
+                  "minimum": -947.8827514648438,
+                  "valid_percent": 1.7572378366955477
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -102.97944975204953,
+                    30.93783715414985
+                  ],
+                  [
+                    -102.83250473906006,
+                    30.93783715414985
+                  ],
+                  [
+                    -102.83250473906006,
+                    31.060923936248045
+                  ],
+                  [
+                    -102.97944975204953,
+                    31.060923936248045
+                  ],
+                  [
+                    -102.97944975204953,
+                    30.93783715414985
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -102.97944975204953,
+              0.0,
+              -0.000542232520256367,
+              31.060923936248045,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231201T183525_001999/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231201T183525_001999/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -102.97944975204953,
+                30.93783715414985
+              ],
+              [
+                -102.83250473906006,
+                30.93783715414985
+              ],
+              [
+                -102.83250473906006,
+                31.060923936248045
+              ],
+              [
+                -102.97944975204953,
+                31.060923936248045
+              ],
+              [
+                -102.97944975204953,
+                30.93783715414985
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-12-01T18:35:25Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 227,
+      "width": 271,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20231201T183525_001999.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20231028T161900_001892",
+      "timestamp": "2023-10-28T16:19:00Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231028T161900_001892/preview.tif?assets=ch4-plume-emissions&width=285&height=255&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20231028T161900_001892",
+        "bbox": [
+          -103.16055541381516,
+          31.266972293945503,
+          -103.0060191455421,
+          31.405241586610877
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231028T161900_001892",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231028T161900_001892/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231028T161900_001892/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20231028T161900_001892/EMIT_L2B_CH4PLM_002_20231028T161900_001892.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.16055541381516,
+              31.266972293945503,
+              -103.0060191455421,
+              31.405241586610877
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              255,
+              285
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 3258.293701171875,
+                  "min": -905.6656494140625,
+                  "count": 11,
+                  "buckets": [
+                    52,
+                    449,
+                    1021,
+                    588,
+                    91,
+                    21,
+                    14,
+                    1,
+                    4,
+                    2
+                  ]
+                },
+                "statistics": {
+                  "mean": 201.28184908604547,
+                  "stddev": 397.1636355097961,
+                  "maximum": 3258.293701171875,
+                  "minimum": -905.6656494140625,
+                  "valid_percent": 3.086343309253526
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.16055541381516,
+                    31.266972293945503
+                  ],
+                  [
+                    -103.0060191455421,
+                    31.266972293945503
+                  ],
+                  [
+                    -103.0060191455421,
+                    31.405241586610877
+                  ],
+                  [
+                    -103.16055541381516,
+                    31.405241586610877
+                  ],
+                  [
+                    -103.16055541381516,
+                    31.266972293945503
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.16055541381516,
+              0.0,
+              -0.000542232520256367,
+              31.405241586610877,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231028T161900_001892/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231028T161900_001892/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.16055541381516,
+                31.266972293945503
+              ],
+              [
+                -103.0060191455421,
+                31.266972293945503
+              ],
+              [
+                -103.0060191455421,
+                31.405241586610877
+              ],
+              [
+                -103.16055541381516,
+                31.405241586610877
+              ],
+              [
+                -103.16055541381516,
+                31.266972293945503
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-10-28T16:19:00Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 255,
+      "width": 285,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20231028T161900_001892.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20231008T161127_001527",
+      "timestamp": "2023-10-08T16:11:27Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161127_001527/preview.tif?assets=ch4-plume-emissions&width=244&height=250&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20231008T161127_001527",
+        "bbox": [
+          -103.59163026741878,
+          32.00278182393334,
+          -103.45932553247623,
+          32.13833995399743
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161127_001527",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161127_001527/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161127_001527/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20231008T161127_001527/EMIT_L2B_CH4PLM_002_20231008T161127_001527.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.59163026741878,
+              32.00278182393334,
+              -103.45932553247623,
+              32.13833995399743
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              250,
+              244
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 2440.463134765625,
+                  "min": -780.1715087890625,
+                  "count": 11,
+                  "buckets": [
+                    24,
+                    112,
+                    324,
+                    422,
+                    158,
+                    39,
+                    8,
+                    2,
+                    5,
+                    3
+                  ]
+                },
+                "statistics": {
+                  "mean": 256.72618505013673,
+                  "stddev": 375.97043330921804,
+                  "maximum": 2440.463134765625,
+                  "minimum": -780.1715087890625,
+                  "valid_percent": 1.798360655737705
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.59163026741878,
+                    32.00278182393334
+                  ],
+                  [
+                    -103.45932553247623,
+                    32.00278182393334
+                  ],
+                  [
+                    -103.45932553247623,
+                    32.13833995399743
+                  ],
+                  [
+                    -103.59163026741878,
+                    32.13833995399743
+                  ],
+                  [
+                    -103.59163026741878,
+                    32.00278182393334
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.59163026741878,
+              0.0,
+              -0.000542232520256367,
+              32.13833995399743,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161127_001527/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161127_001527/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.59163026741878,
+                32.00278182393334
+              ],
+              [
+                -103.45932553247623,
+                32.00278182393334
+              ],
+              [
+                -103.45932553247623,
+                32.13833995399743
+              ],
+              [
+                -103.59163026741878,
+                32.13833995399743
+              ],
+              [
+                -103.59163026741878,
+                32.00278182393334
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-10-08T16:11:27Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 250,
+      "width": 244,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20231008T161127_001527.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20231008T161115_001522",
+      "timestamp": "2023-10-08T16:11:15Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161115_001522/preview.tif?assets=ch4-plume-emissions&width=220&height=225&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20231008T161115_001522",
+        "bbox": [
+          -104.1219336722295,
+          31.988141545886418,
+          -104.0026425177731,
+          32.1101438629441
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161115_001522",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161115_001522/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161115_001522/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20231008T161115_001522/EMIT_L2B_CH4PLM_002_20231008T161115_001522.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -104.1219336722295,
+              31.988141545886418,
+              -104.0026425177731,
+              32.1101438629441
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              225,
+              220
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 1371.9061279296875,
+                  "min": -782.0917358398438,
+                  "count": 11,
+                  "buckets": [
+                    2,
+                    9,
+                    20,
+                    44,
+                    50,
+                    45,
+                    52,
+                    30,
+                    21,
+                    13
+                  ]
+                },
+                "statistics": {
+                  "mean": 397.35664335664336,
+                  "stddev": 438.94670060596746,
+                  "maximum": 1371.9061279296875,
+                  "minimum": -782.0917358398438,
+                  "valid_percent": 0.5777777777777777
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -104.1219336722295,
+                    31.988141545886418
+                  ],
+                  [
+                    -104.0026425177731,
+                    31.988141545886418
+                  ],
+                  [
+                    -104.0026425177731,
+                    32.1101438629441
+                  ],
+                  [
+                    -104.1219336722295,
+                    32.1101438629441
+                  ],
+                  [
+                    -104.1219336722295,
+                    31.988141545886418
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -104.1219336722295,
+              0.0,
+              -0.000542232520256367,
+              32.1101438629441,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161115_001522/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231008T161115_001522/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -104.1219336722295,
+                31.988141545886418
+              ],
+              [
+                -104.0026425177731,
+                31.988141545886418
+              ],
+              [
+                -104.0026425177731,
+                32.1101438629441
+              ],
+              [
+                -104.1219336722295,
+                32.1101438629441
+              ],
+              [
+                -104.1219336722295,
+                31.988141545886418
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-10-08T16:11:15Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 225,
+      "width": 220,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20231008T161115_001522.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20231004T174744_001447",
+      "timestamp": "2023-10-04T17:47:44Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174744_001447/preview.tif?assets=ch4-plume-emissions&width=271&height=273&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20231004T174744_001447",
+        "bbox": [
+          -104.2330913388823,
+          32.496755649886936,
+          -104.08614632589283,
+          32.644785127916926
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174744_001447",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174744_001447/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174744_001447/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20231004T174744_001447/EMIT_L2B_CH4PLM_002_20231004T174744_001447.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -104.2330913388823,
+              32.496755649886936,
+              -104.08614632589283,
+              32.644785127916926
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              273,
+              271
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 4986.61328125,
+                  "min": -1241.427490234375,
+                  "count": 11,
+                  "buckets": [
+                    21,
+                    507,
+                    880,
+                    439,
+                    323,
+                    173,
+                    94,
+                    20,
+                    3,
+                    5
+                  ]
+                },
+                "statistics": {
+                  "mean": 717.5264705882353,
+                  "stddev": 887.8916044638211,
+                  "maximum": 4986.61328125,
+                  "minimum": -1241.427490234375,
+                  "valid_percent": 3.3318465052782393
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -104.2330913388823,
+                    32.496755649886936
+                  ],
+                  [
+                    -104.08614632589283,
+                    32.496755649886936
+                  ],
+                  [
+                    -104.08614632589283,
+                    32.644785127916926
+                  ],
+                  [
+                    -104.2330913388823,
+                    32.644785127916926
+                  ],
+                  [
+                    -104.2330913388823,
+                    32.496755649886936
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -104.2330913388823,
+              0.0,
+              -0.000542232520256367,
+              32.644785127916926,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174744_001447/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174744_001447/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -104.2330913388823,
+                32.496755649886936
+              ],
+              [
+                -104.08614632589283,
+                32.496755649886936
+              ],
+              [
+                -104.08614632589283,
+                32.644785127916926
+              ],
+              [
+                -104.2330913388823,
+                32.644785127916926
+              ],
+              [
+                -104.2330913388823,
+                32.496755649886936
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-10-04T17:47:44Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 273,
+      "width": 271,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20231004T174744_001447.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20231004T174732_001454",
+      "timestamp": "2023-10-04T17:47:32Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174732_001454/preview.tif?assets=ch4-plume-emissions&width=231&height=225&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20231004T174732_001454",
+        "bbox": [
+          -104.55192406079306,
+          32.025013357263894,
+          -104.42666834861383,
+          32.14701567432158
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174732_001454",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174732_001454/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174732_001454/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20231004T174732_001454/EMIT_L2B_CH4PLM_002_20231004T174732_001454.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -104.55192406079306,
+              32.025013357263894,
+              -104.42666834861383,
+              32.14701567432158
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              225,
+              231
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 2366.24169921875,
+                  "min": -916.4537963867188,
+                  "count": 11,
+                  "buckets": [
+                    4,
+                    17,
+                    86,
+                    174,
+                    135,
+                    70,
+                    26,
+                    7,
+                    3,
+                    1
+                  ]
+                },
+                "statistics": {
+                  "mean": 396.3650812619503,
+                  "stddev": 418.0435020701246,
+                  "maximum": 2366.24169921875,
+                  "minimum": -916.4537963867188,
+                  "valid_percent": 1.0062530062530062
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -104.55192406079306,
+                    32.025013357263894
+                  ],
+                  [
+                    -104.42666834861383,
+                    32.025013357263894
+                  ],
+                  [
+                    -104.42666834861383,
+                    32.14701567432158
+                  ],
+                  [
+                    -104.55192406079306,
+                    32.14701567432158
+                  ],
+                  [
+                    -104.55192406079306,
+                    32.025013357263894
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -104.55192406079306,
+              0.0,
+              -0.000542232520256367,
+              32.14701567432158,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174732_001454/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20231004T174732_001454/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -104.55192406079306,
+                32.025013357263894
+              ],
+              [
+                -104.42666834861383,
+                32.025013357263894
+              ],
+              [
+                -104.42666834861383,
+                32.14701567432158
+              ],
+              [
+                -104.55192406079306,
+                32.14701567432158
+              ],
+              [
+                -104.55192406079306,
+                32.025013357263894
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-10-04T17:47:32Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 225,
+      "width": 231,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20231004T174732_001454.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20230731T191834_000403",
+      "timestamp": "2023-07-31T19:18:34Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191834_000403/preview.tif?assets=ch4-plume-emissions&width=272&height=240&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20230731T191834_000403",
+        "bbox": [
+          -102.57494429193828,
+          31.957234292231878,
+          -102.42745704642854,
+          32.087370097093405
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191834_000403",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191834_000403/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191834_000403/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20230731T191834_000403/EMIT_L2B_CH4PLM_002_20230731T191834_000403.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -102.57494429193828,
+              31.957234292231878,
+              -102.42745704642854,
+              32.087370097093405
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              240,
+              272
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 1595.0897216796875,
+                  "min": -806.3626708984375,
+                  "count": 11,
+                  "buckets": [
+                    13,
+                    97,
+                    331,
+                    522,
+                    473,
+                    256,
+                    100,
+                    51,
+                    12,
+                    7
+                  ]
+                },
+                "statistics": {
+                  "mean": 169.97542964554242,
+                  "stddev": 346.2140296596971,
+                  "maximum": 1595.0897216796875,
+                  "minimum": -806.3626708984375,
+                  "valid_percent": 2.8523284313725488
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -102.57494429193828,
+                    31.957234292231878
+                  ],
+                  [
+                    -102.42745704642854,
+                    31.957234292231878
+                  ],
+                  [
+                    -102.42745704642854,
+                    32.087370097093405
+                  ],
+                  [
+                    -102.57494429193828,
+                    32.087370097093405
+                  ],
+                  [
+                    -102.57494429193828,
+                    31.957234292231878
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -102.57494429193828,
+              0.0,
+              -0.000542232520256367,
+              32.087370097093405,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191834_000403/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191834_000403/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -102.57494429193828,
+                31.957234292231878
+              ],
+              [
+                -102.42745704642854,
+                31.957234292231878
+              ],
+              [
+                -102.42745704642854,
+                32.087370097093405
+              ],
+              [
+                -102.57494429193828,
+                32.087370097093405
+              ],
+              [
+                -102.57494429193828,
+                31.957234292231878
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-07-31T19:18:34Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 240,
+      "width": 272,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20230731T191834_000403.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20230731T191822_000404",
+      "timestamp": "2023-07-31T19:18:22Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191822_000404/preview.tif?assets=ch4-plume-emissions&width=233&height=247&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20230731T191822_000404",
+        "bbox": [
+          -103.11934574227567,
+          31.393312471165256,
+          -102.99300556505594,
+          31.52724390366858
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191822_000404",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191822_000404/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191822_000404/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20230731T191822_000404/EMIT_L2B_CH4PLM_002_20230731T191822_000404.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.11934574227567,
+              31.393312471165256,
+              -102.99300556505594,
+              31.52724390366858
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              247,
+              233
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 4526.287109375,
+                  "min": -723.3112182617188,
+                  "count": 11,
+                  "buckets": [
+                    105,
+                    452,
+                    185,
+                    17,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    2
+                  ]
+                },
+                "statistics": {
+                  "mean": 157.61269249672347,
+                  "stddev": 419.9093726598426,
+                  "maximum": 4526.287109375,
+                  "minimum": -723.3112182617188,
+                  "valid_percent": 1.3257806119789404
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.11934574227567,
+                    31.393312471165256
+                  ],
+                  [
+                    -102.99300556505594,
+                    31.393312471165256
+                  ],
+                  [
+                    -102.99300556505594,
+                    31.52724390366858
+                  ],
+                  [
+                    -103.11934574227567,
+                    31.52724390366858
+                  ],
+                  [
+                    -103.11934574227567,
+                    31.393312471165256
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.11934574227567,
+              0.0,
+              -0.000542232520256367,
+              31.52724390366858,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191822_000404/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191822_000404/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.11934574227567,
+                31.393312471165256
+              ],
+              [
+                -102.99300556505594,
+                31.393312471165256
+              ],
+              [
+                -102.99300556505594,
+                31.52724390366858
+              ],
+              [
+                -103.11934574227567,
+                31.52724390366858
+              ],
+              [
+                -103.11934574227567,
+                31.393312471165256
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-07-31T19:18:22Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 247,
+      "width": 233,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20230731T191822_000404.tif"
+    },
+    {
+      "name": "EMIT_L2B_CH4PLM_002_20230731T191810_000406",
+      "timestamp": "2023-07-31T19:18:10Z",
+      "url": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191810_000406/preview.tif?assets=ch4-plume-emissions&width=222&height=220&resampling=nearest",
+      "role": "catalog_conditioned_screen",
+      "plume_metadata": {
+        "id": "EMIT_L2B_CH4PLM_002_20230731T191810_000406",
+        "bbox": [
+          -103.03584193415618,
+          30.933499293987857,
+          -102.91546631465927,
+          31.05279044844426
+        ],
+        "type": "Feature",
+        "links": [
+          {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/"
+          },
+          {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191810_000406",
+            "auth:refs": [
+              "oidc"
+            ]
+          },
+          {
+            "title": "Map of dashboard asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191810_000406/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          },
+          {
+            "title": "Map of ch4-plume-emissions asset",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191810_000406/WebMercatorQuad/map?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "type": "text/html"
+          }
+        ],
+        "assets": {
+          "ch4-plume-emissions": {
+            "href": "s3://lp-prod-protected/EMITL2BCH4PLM.002/EMIT_L2B_CH4PLM_002_20230731T191810_000406/EMIT_L2B_CH4PLM_002_20230731T191810_000406.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+              "data",
+              "layer"
+            ],
+            "title": "CH4 Plume Emission",
+            "proj:bbox": [
+              -103.03584193415618,
+              30.933499293987857,
+              -102.91546631465927,
+              31.05279044844426
+            ],
+            "proj:epsg": 4326,
+            "proj:shape": [
+              220,
+              222
+            ],
+            "description": "Methane plume  complex    emission  data",
+            "raster:bands": [
+              {
+                "scale": 1.0,
+                "nodata": -9999.0,
+                "offset": 0.0,
+                "sampling": "area",
+                "data_type": "float32",
+                "histogram": {
+                  "max": 2436.07177734375,
+                  "min": -555.6798095703125,
+                  "count": 11,
+                  "buckets": [
+                    22,
+                    61,
+                    88,
+                    50,
+                    7,
+                    5,
+                    3,
+                    3,
+                    1,
+                    3
+                  ]
+                },
+                "statistics": {
+                  "mean": 210.94992605452674,
+                  "stddev": 457.7473490138662,
+                  "maximum": 2436.07177734375,
+                  "minimum": -555.6798095703125,
+                  "valid_percent": 0.4975429975429975
+                }
+              }
+            ],
+            "proj:geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -103.03584193415618,
+                    30.933499293987857
+                  ],
+                  [
+                    -102.91546631465927,
+                    30.933499293987857
+                  ],
+                  [
+                    -102.91546631465927,
+                    31.05279044844426
+                  ],
+                  [
+                    -103.03584193415618,
+                    31.05279044844426
+                  ],
+                  [
+                    -103.03584193415618,
+                    30.933499293987857
+                  ]
+                ]
+              ]
+            },
+            "proj:transform": [
+              0.000542232520256367,
+              0.0,
+              -103.03584193415618,
+              0.0,
+              -0.000542232520256367,
+              31.05279044844426,
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "rendered_preview_dashboard": {
+            "title": "Rendered preview for dashboard",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191810_000406/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          },
+          "rendered_preview_ch4-plume-emissions": {
+            "title": "Rendered preview for ch4-plume-emissions",
+            "href": "https://earth.gov/eic/api/raster/collections/emit-ch4plume-v2/items/EMIT_L2B_CH4PLM_002_20230731T191810_000406/preview.png?bidx=1&assets=ch4-plume-emissions&nodata=-9999&rescale=1%2C1500&resampling=bilinear&colormap_name=plasma",
+            "rel": "preview",
+            "roles": [
+              "overview"
+            ],
+            "type": "image/png"
+          }
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -103.03584193415618,
+                30.933499293987857
+              ],
+              [
+                -102.91546631465927,
+                30.933499293987857
+              ],
+              [
+                -102.91546631465927,
+                31.05279044844426
+              ],
+              [
+                -103.03584193415618,
+                31.05279044844426
+              ],
+              [
+                -103.03584193415618,
+                30.933499293987857
+              ]
+            ]
+          ]
+        },
+        "collection": "emit-ch4plume-v2",
+        "properties": {
+          "datetime": "2023-07-31T19:18:10Z"
+        },
+        "stac_version": "1.0.0",
+        "stac_extensions": [
+          "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+          "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+        ]
+      },
+      "height": 220,
+      "width": 222,
+      "path": "data/raw/public_crops/EMIT_L2B_CH4PLM_002_20230731T191810_000406.tif"
+    }
+  ],
+  "selection_rule": "Latest20 distinct acquisition timestamps intersecting fixed bbox; select one cataloged plume complex at each timestamp with largest metadata valid-pixel count (ties by NASA item ID). First2 known plume products reserved for numeric/geospatial validation. Remaining18 are catalog-conditioned screens, not unbiased full-scene search.",
+  "bias": "Plume product selected/masked by NASA. Suitable plume-free controls and new emissions outside product support unavailable.",
+  "export": {
+    "provider": "NASA US Greenhouse Gas Center EIC Raster API",
+    "format": "GeoTIFF scientific preview",
+    "assets": "ch4-plume-emissions",
+    "width_height": "exact native shape from STAC",
+    "resampling": "nearest",
+    "rescale": null,
+    "colormap": null,
+    "expected_band1": "float32 methane enhancement ppm m",
+    "expected_band2": "validity/alpha mask from raster service, not retrieval uncertainty"
+  },
+  "queries": [
+    {
+      "url": "https://earth.gov/eic/api/stac/ghgc/collections/emit-ch4plume-v2/items",
+      "params": {
+        "limit": 100,
+        "bbox": "-104.5,31,-102.5,33"
+      },
+      "numberMatched": 83,
+      "numberReturned": 83
+    }
+  ]
+}

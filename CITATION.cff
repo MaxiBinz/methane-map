@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the project and its underlying NASA and Carbon Mapper sources when using these findings."
+title: "Methane Map: a reproducible, bounded investigation of public EMIT methane observations"
+type: software
+version: 0.1.0
+date-released: 2026-10-19
+authors:
+  - family-names: Binz
+    given-names: Maximilian
+repository-code: "https://github.com/MaxiBinz/methane-map"
+url: "https://github.com/MaxiBinz/methane-map"
+abstract: >-
+  An AI-assisted investigation of twenty NASA EMIT V002 methane enhancement
+  scenes in the northern Delaware Basin. Fourteen screening components received
+  initial assessments: six documented-observation neighborhood associations and
+  eight ambiguous responses. The conservative baseline failed its planned
+  two-positive-scene recovery gate, and no new methane source was established.
+keywords:
+  - methane
+  - remote sensing
+  - EMIT
+  - reproducible research
+  - research integrity

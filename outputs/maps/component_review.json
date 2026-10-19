@@ -1,0 +1,86 @@
+[
+  {
+    "candidate_id": "MH-02-0020",
+    "category": "E",
+    "half_width_m_approx": 1500,
+    "figure_panel": 1
+  },
+  {
+    "candidate_id": "MH-02-0021",
+    "category": "E",
+    "half_width_m_approx": 1500,
+    "figure_panel": 2
+  },
+  {
+    "candidate_id": "MH-02-0042",
+    "category": "C",
+    "half_width_m_approx": 1500,
+    "figure_panel": 3
+  },
+  {
+    "candidate_id": "MH-02-0059",
+    "category": "C",
+    "half_width_m_approx": 1500,
+    "figure_panel": 4
+  },
+  {
+    "candidate_id": "MH-02-0064",
+    "category": "C",
+    "half_width_m_approx": 1500,
+    "figure_panel": 5
+  },
+  {
+    "candidate_id": "MH-02-0075",
+    "category": "C",
+    "half_width_m_approx": 1500,
+    "figure_panel": 6
+  },
+  {
+    "candidate_id": "MH-02-0082",
+    "category": "C",
+    "half_width_m_approx": 1500,
+    "figure_panel": 7
+  },
+  {
+    "candidate_id": "MH-02-0097",
+    "category": "C",
+    "half_width_m_approx": 1500,
+    "figure_panel": 8
+  },
+  {
+    "candidate_id": "MH-02-0098",
+    "category": "C",
+    "half_width_m_approx": 1500,
+    "figure_panel": 9
+  },
+  {
+    "candidate_id": "MH-02-0128",
+    "category": "C",
+    "half_width_m_approx": 1500,
+    "figure_panel": 10
+  },
+  {
+    "candidate_id": "MH-09-0004",
+    "category": "E",
+    "half_width_m_approx": 1500,
+    "figure_panel": 11
+  },
+  {
+    "candidate_id": "MH-12-0001",
+    "category": "E",
+    "half_width_m_approx": 1500,
+    "figure_panel": 12
+  },
+  {
+    "candidate_id": "MH-15-0004",
+    "category": "E",
+    "half_width_m_approx": 1500,
+    "figure_panel": 13
+  },
+  {
+    "candidate_id": "MH-16-0004",
+    "category": "E",
+    "half_width_m_approx": 1500,
+    "figure_panel": 14
+  }
+]

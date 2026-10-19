@@ -1,0 +1,8 @@
+{
+  "http_status": 206,
+  "content_type": "image/tiff",
+  "host": "data.lpdaac.earthdatacloud.nasa.gov",
+  "scene": "EMIT_L2B_CH4ENH_002_20260726T191925_2620713_006",
+  "tiff_magic_valid": true,
+  "sample_bytes_read": 32
+}

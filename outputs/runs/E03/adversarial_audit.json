@@ -1,0 +1,1936 @@
+{
+  "created_at": "2026-10-19T07:14:54.425204+00:00",
+  "audit_version": "candidate_adversarial_audit_v1",
+  "input_sha256": {
+    "outputs/run_summary.json": "7cb5d8052c65a80909258cf2bc33f2e1cb411bf0d9874503580b98fe457b56c2",
+    "outputs/run_parameters.json": "5ed5147934850ce8f0f0270bb0d93b751087f63113edc9196ab3cb200f1355af",
+    "outputs/candidates.json": "68d5a93daf880aaffc26e9f4e85621faf641d4e2ba88e6a9a5324292c5bf0c16",
+    "data/nasa_input_manifest.json": "2917a198c920428cb3666850836693af528d55837fdfdf57c733910dbe6ed93e",
+    "data/metadata/nasa_selection.json": "8058ddcdb9008eda3713e3bee6a4b4c78613e82d240f7de160345c10027ce36d",
+    "data/metadata/carbonmapper_scene_plumes.json": "9f4d52159d1e2f1429c109241babcfc8428ae06131e02a59cd5c3d1dcc82123f",
+    "data/metadata/carbonmapper_regional_plumes.json": "a474d72a28bc63712ff6eb5e765cc265990b55d2f8c42a5c15a9ff841db802bb",
+    "data/metadata/nasa_plume_cmr_same_scenes.json": "9d8bdf84c8b74263726c260c42e5fbef6db1511f778495c7820b12e0413b0455",
+    "data/nasa_download_ledger.json": "9c43c31766694034e0606a0c0b15018479157869db844e947fae84e6f9b57d24"
+  },
+  "scope": "All components from the completed frozen 20-scene baseline; no additional downloads or automatic category changes",
+  "thresholds": {
+    "catalog_association_m": 300,
+    "same_acquisition_seconds": 120,
+    "potential_duplicate_geometry_distance_m": 300,
+    "recurrence_and_catalog_context_m": 1000
+  },
+  "provenance_limit": "Primary analysis verified all raw SHA-256 values. This audit checks hash metadata and file sizes for candidate inputs, and rehashes only the 5 distinct quality masks read for component-neighborhood checks.",
+  "context_catalog_scope": {
+    "selected_scene_ch4_records": 50,
+    "regional_plus_selected_scene_historical_records": 144,
+    "nasa_precise_plume_polygons": 13,
+    "independent_observing_sensor": false
+  },
+  "summary": {
+    "components_audited": 14,
+    "by_initial_category": {
+      "E": 6,
+      "C": 8
+    },
+    "by_scene_role": {
+      "positive_validation": 10,
+      "search": 4
+    },
+    "by_review_flag": {
+      "possible_same_event_fragmentation_or_duplicate": 4,
+      "same_acquisition_catalog_source_between_300m_and_1km": 2,
+      "weak_local_annulus_contrast": 1,
+      "quality_excluded_pixel_neighborhood_within_1_5km": 6,
+      "near_region_boundary_catalog_outside_roi_not_excluded": 1,
+      "other_date_catalog_source_within_1km": 1
+    },
+    "all_contract_checks_passed": true,
+    "contract_errors": [],
+    "all_component_geometries_within_roi": true,
+    "potential_same_event_pairs": 2,
+    "potential_same_event_groups": 2,
+    "cross_granule_potential_duplicate_pairs": 0,
+    "other_date_component_neighborhood_pairs": 0,
+    "components_with_other_date_catalog_context_within_1km": 1,
+    "category_C_with_same_acquisition_catalog_context_within_1km": 2,
+    "components_with_missing_or_weak_annulus": 1,
+    "components_near_quality_exclusion_within_1500m": 6,
+    "components_with_excluded_quality_pixels": 0,
+    "components_reclassified_or_rejected": 0,
+    "novelty_established": false,
+    "independent_physical_validation_performed": false,
+    "review_priority_order": [
+      "MH-02-0064",
+      "MH-02-0075",
+      "MH-02-0082",
+      "MH-02-0097",
+      "MH-02-0098",
+      "MH-02-0128",
+      "MH-02-0042",
+      "MH-02-0059",
+      "MH-12-0001",
+      "MH-02-0020",
+      "MH-02-0021",
+      "MH-15-0004",
+      "MH-16-0004",
+      "MH-09-0004"
+    ]
+  },
+  "potential_same_event_pairs": [
+    {
+      "candidate_ids": [
+        "MH-02-0020",
+        "MH-02-0021"
+      ],
+      "geometry_distance_m": 51.09689592364096,
+      "time_difference_seconds": 0.0,
+      "cross_granule": false,
+      "geometry_overlap_area_m2": 0.0,
+      "interpretation": "possible same-event fragmentation or duplicate; no automatic merging"
+    },
+    {
+      "candidate_ids": [
+        "MH-02-0097",
+        "MH-02-0098"
+      ],
+      "geometry_distance_m": 51.31258696014409,
+      "time_difference_seconds": 0.0,
+      "cross_granule": false,
+      "geometry_overlap_area_m2": 0.0,
+      "interpretation": "possible same-event fragmentation or duplicate; no automatic merging"
+    }
+  ],
+  "potential_same_event_groups": [
+    {
+      "group_id": "potential-event-group-01",
+      "candidate_ids": [
+        "MH-02-0020",
+        "MH-02-0021"
+      ],
+      "interpretation": "neighboring components; no verified source/event count implied"
+    },
+    {
+      "group_id": "potential-event-group-02",
+      "candidate_ids": [
+        "MH-02-0097",
+        "MH-02-0098"
+      ],
+      "interpretation": "neighboring components; no verified source/event count implied"
+    }
+  ],
+  "other_date_component_neighborhood_pairs": [],
+  "candidates": [
+    {
+      "candidate_id": "MH-02-0020",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "E",
+      "category_after_audit": "E",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "medium",
+      "review_priority_score": 1,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 15359.450372612075,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [
+        {
+          "catalog_id": "emi20250323t212330p14007-A",
+          "catalog_record_id": "b477cfb6-47b6-4399-a35a-2c3056f8be81",
+          "source_point": [
+            -103.51356700499691,
+            32.23833397335362
+          ],
+          "point_to_component_distance_m": 24.81038642796348,
+          "time_difference_seconds": 0.0,
+          "association": "same_acquisition_neighborhood",
+          "source_url": "https://data.carbonmapper.org/"
+        }
+      ],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20250323t212330p14007-A",
+          "catalog_record_id": "b477cfb6-47b6-4399-a35a-2c3056f8be81",
+          "source_point": [
+            -103.51356700499691,
+            32.23833397335362
+          ],
+          "observed_at": "2025-03-23T21:23:30Z",
+          "point_to_component_distance_m": 24.81038642796348,
+          "time_difference_seconds": 0.0,
+          "same_acquisition_time_window": true,
+          "different_calendar_date": false,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-A",
+        "source_point": [
+          -103.51356700499691,
+          32.23833397335362
+        ],
+        "point_to_component_distance_m": 24.81038642796348
+      },
+      "potential_same_event_group": "potential-event-group-01",
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 174,
+        "contrast_sigma": 5.6983438010795116,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 1.0601811408996582,
+      "sensor_uncertainty_median_ppm_m": 317.3774108886719,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 5,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": null,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "possible_same_event_fragmentation_or_duplicate"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Published same-EMIT observation association; no independent atmospheric confirmation."
+    },
+    {
+      "candidate_id": "MH-02-0021",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "E",
+      "category_after_audit": "E",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "medium",
+      "review_priority_score": 1,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 12287.673316520308,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [
+        {
+          "catalog_id": "emi20250323t212330p14007-A",
+          "catalog_record_id": "b477cfb6-47b6-4399-a35a-2c3056f8be81",
+          "source_point": [
+            -103.51356700499691,
+            32.23833397335362
+          ],
+          "point_to_component_distance_m": 209.7525850835799,
+          "time_difference_seconds": 0.0,
+          "association": "same_acquisition_neighborhood",
+          "source_url": "https://data.carbonmapper.org/"
+        }
+      ],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20250323t212330p14007-A",
+          "catalog_record_id": "b477cfb6-47b6-4399-a35a-2c3056f8be81",
+          "source_point": [
+            -103.51356700499691,
+            32.23833397335362
+          ],
+          "observed_at": "2025-03-23T21:23:30Z",
+          "point_to_component_distance_m": 209.7525850835799,
+          "time_difference_seconds": 0.0,
+          "same_acquisition_time_window": true,
+          "different_calendar_date": false,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-A",
+        "source_point": [
+          -103.51356700499691,
+          32.23833397335362
+        ],
+        "point_to_component_distance_m": 209.7525850835799
+      },
+      "potential_same_event_group": "potential-event-group-01",
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 156,
+        "contrast_sigma": 6.383913402505866,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 0.9099184572696686,
+      "sensor_uncertainty_median_ppm_m": 356.3247528076172,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 4,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": null,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "possible_same_event_fragmentation_or_duplicate"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Published same-EMIT observation association; no independent atmospheric confirmation."
+    },
+    {
+      "candidate_id": "MH-02-0042",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "C",
+      "category_after_audit": "C",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "high",
+      "review_priority_score": 10,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 12300.62937648399,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-F",
+        "source_point": [
+          -103.93982448515007,
+          32.06576771379241
+        ],
+        "point_to_component_distance_m": 6531.703950849208
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 156,
+        "contrast_sigma": 8.708646037979621,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 0.9929869174957275,
+      "sensor_uncertainty_median_ppm_m": 316.7090148925781,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 4,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": null,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Ambiguous enhancement component. Wider source context may explain a catalog-neighborhood miss; novelty is not established."
+    },
+    {
+      "candidate_id": "MH-02-0059",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "C",
+      "category_after_audit": "C",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "high",
+      "review_priority_score": 10,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 12312.326314551767,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-H",
+        "source_point": [
+          -103.67767400330031,
+          31.954259653705833
+        ],
+        "point_to_component_distance_m": 15224.003359661356
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 156,
+        "contrast_sigma": 6.267544012371276,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 1.1644463539123535,
+      "sensor_uncertainty_median_ppm_m": 279.0859069824219,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 4,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": null,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Ambiguous enhancement component. Wider source context may explain a catalog-neighborhood miss; novelty is not established."
+    },
+    {
+      "candidate_id": "MH-02-0064",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "C",
+      "category_after_audit": "C",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "high",
+      "review_priority_score": 12,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 12315.734546019698,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20250323t212330p14007-E",
+          "catalog_record_id": "6212754a-22a0-4585-84e8-1a58bed559cc",
+          "source_point": [
+            -104.05215903344659,
+            31.999366390555608
+          ],
+          "observed_at": "2025-03-23T21:23:30Z",
+          "point_to_component_distance_m": 920.0684585845152,
+          "time_difference_seconds": 0.0,
+          "same_acquisition_time_window": true,
+          "different_calendar_date": false,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-E",
+        "source_point": [
+          -104.05215903344659,
+          31.999366390555608
+        ],
+        "point_to_component_distance_m": 920.0684585845152
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 162,
+        "contrast_sigma": 2.8212073833221276,
+        "missing_or_insufficient": false,
+        "weak_contrast": true,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 1.1139562129974365,
+      "sensor_uncertainty_median_ppm_m": 288.9127197265625,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 4,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": null,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "same_acquisition_catalog_source_between_300m_and_1km",
+        "weak_local_annulus_contrast"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Ambiguous enhancement component. Wider source context may explain a catalog-neighborhood miss; novelty is not established."
+    },
+    {
+      "candidate_id": "MH-02-0075",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "C",
+      "category_after_audit": "C",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "high",
+      "review_priority_score": 12,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 12323.928238564986,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20250323t212330p14007-H",
+          "catalog_record_id": "a0f14d8b-bfcc-4a0b-9260-6d1183b7e2d9",
+          "source_point": [
+            -103.67767400330031,
+            31.954259653705833
+          ],
+          "observed_at": "2025-03-23T21:23:30Z",
+          "point_to_component_distance_m": 650.8271279898948,
+          "time_difference_seconds": 0.0,
+          "same_acquisition_time_window": true,
+          "different_calendar_date": false,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-H",
+        "source_point": [
+          -103.67767400330031,
+          31.954259653705833
+        ],
+        "point_to_component_distance_m": 650.8271279898948
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 156,
+        "contrast_sigma": 6.41500861944483,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 1.1571958661079407,
+      "sensor_uncertainty_median_ppm_m": 295.13465881347656,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 4,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": 1054.7936670065674,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "quality_excluded_pixel_neighborhood_within_1_5km",
+        "same_acquisition_catalog_source_between_300m_and_1km"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Ambiguous enhancement component. Wider source context may explain a catalog-neighborhood miss; novelty is not established."
+    },
+    {
+      "candidate_id": "MH-02-0082",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "C",
+      "category_after_audit": "C",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "high",
+      "review_priority_score": 11,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 18491.42870550889,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-H",
+        "source_point": [
+          -103.67767400330031,
+          31.954259653705833
+        ],
+        "point_to_component_distance_m": 16610.935838194222
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 144,
+        "contrast_sigma": 6.3148627314359365,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 1.0631080865859985,
+      "sensor_uncertainty_median_ppm_m": 312.7914733886719,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 6,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": 197.51417444270106,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "quality_excluded_pixel_neighborhood_within_1_5km"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Ambiguous enhancement component. Wider source context may explain a catalog-neighborhood miss; novelty is not established."
+    },
+    {
+      "candidate_id": "MH-02-0097",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "C",
+      "category_after_audit": "C",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "high",
+      "review_priority_score": 11,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 30841.173295447574,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-K",
+        "source_point": [
+          -104.18986180050354,
+          31.977939357300045
+        ],
+        "point_to_component_distance_m": 16662.61735075395
+      },
+      "potential_same_event_group": "potential-event-group-02",
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 186,
+        "contrast_sigma": 7.248061505107964,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 0.8554596900939941,
+      "sensor_uncertainty_median_ppm_m": 390.2305603027344,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 10,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": null,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "possible_same_event_fragmentation_or_duplicate"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Ambiguous enhancement component. Wider source context may explain a catalog-neighborhood miss; novelty is not established."
+    },
+    {
+      "candidate_id": "MH-02-0098",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "C",
+      "category_after_audit": "C",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "high",
+      "review_priority_score": 11,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 21588.82679678277,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-K",
+        "source_point": [
+          -104.18986180050354,
+          31.977939357300045
+        ],
+        "point_to_component_distance_m": 16796.38037708381
+      },
+      "potential_same_event_group": "potential-event-group-02",
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 180,
+        "contrast_sigma": 5.578994416929545,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 0.8984810709953308,
+      "sensor_uncertainty_median_ppm_m": 340.169189453125,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 7,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": null,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "possible_same_event_fragmentation_or_duplicate"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Ambiguous enhancement component. Wider source context may explain a catalog-neighborhood miss; novelty is not established."
+    },
+    {
+      "candidate_id": "MH-02-0128",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007",
+      "observed_at": "2025-03-23T21:23:30Z",
+      "scene_role": "positive_validation",
+      "initial_category": "C",
+      "category_after_audit": "C",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "high",
+      "review_priority_score": 11,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 12357.81562854639,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007.tif",
+          "sha256": "753748b1227d54dfa1feadb35604c7f7ab504803161fcb5a3c2e49d408c2540f",
+          "bytes": 23802472,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4SENS_002_20250323T212330_2508214_007.tif",
+          "sha256": "80f12646b94a390d3ff698955bacddf00adca984c9d609cc8b014b955e1623a6",
+          "bytes": 20621912,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2B_CH4UNCERT_002_20250323T212330_2508214_007.tif",
+          "sha256": "1640f4845ff29def4c67c40d7a4c4c84dc3614c0ee8073172877f55387eb26c4",
+          "bytes": 20428840,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250323T212330_2508214_007/EMIT_L2A_MASK_001_20250323T212330_2508214_007.nc",
+          "sha256": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+          "bytes": 87724738,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250323t212330p14007-K",
+        "source_point": [
+          -104.18986180050354,
+          31.977939357300045
+        ],
+        "point_to_component_distance_m": 36716.94310293833
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 162,
+        "contrast_sigma": 6.614692268316451,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 0.9456939399242401,
+      "sensor_uncertainty_median_ppm_m": 331.1371154785156,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 4,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": 925.0440206277963,
+        "quality_mask_sha256_recomputed": "2e7ae0419c1cdb191e8225d370f1fa247aa79f40273fd25472cafdaab6314b62",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "quality_excluded_pixel_neighborhood_within_1_5km"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Ambiguous enhancement component. Wider source context may explain a catalog-neighborhood miss; novelty is not established."
+    },
+    {
+      "candidate_id": "MH-09-0004",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024",
+      "observed_at": "2024-02-12T21:48:32Z",
+      "scene_role": "search",
+      "initial_category": "E",
+      "category_after_audit": "E",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "low",
+      "review_priority_score": 0,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 12328.057049721676,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024.tif",
+          "sha256": "cf48297d0c0e5df8d6a462e73516f3314e8465af9ca139b187b3f6c5fc8d1d12",
+          "bytes": 13491176,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4SENS_002_20240212T214832_2404314_024.tif",
+          "sha256": "24fa547022278d6e8fd1be335be0e876b945d137632c15c6913c74a25196ab24",
+          "bytes": 11773373,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4UNCERT_002_20240212T214832_2404314_024.tif",
+          "sha256": "3772d88a46c7f598c94b37ee2d69f934455ecfb1204871fdaa34c63b0a742e2b",
+          "bytes": 11751266,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2A_MASK_001_20240212T214832_2404314_024.nc",
+          "sha256": "a0d469d2d6f7fe9da289ee8594c0cbedad0770d516c7d055fb5bb6049f49720b",
+          "bytes": 47758952,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [
+        {
+          "catalog_id": "emi20240212t214832p14024-G",
+          "catalog_record_id": "5f778dbd-686f-4ef6-b449-2426fe130496",
+          "source_point": [
+            -102.51816177093173,
+            32.01440715965484
+          ],
+          "point_to_component_distance_m": 284.09174035103007,
+          "time_difference_seconds": 0.0,
+          "association": "same_acquisition_neighborhood",
+          "source_url": "https://data.carbonmapper.org/"
+        }
+      ],
+      "nasa_precise_outline_matches": [
+        {
+          "catalog_id": "EMIT_L2B_CH4PLM_002_20240212T214832_002706",
+          "granule_id": "EMIT_L2B_CH4PLM_002_20240212T214832_002706",
+          "source": "NASA EMIT methane plume complexes V002",
+          "doi": "https://doi.org/10.5067/EMIT/EMITL2BCH4PLM.002",
+          "cmr_concept_id": "G3961083634-LPCLOUD",
+          "observed_at": "2024-02-12T21:48:32Z",
+          "time_difference_seconds": 0.0,
+          "overlap_area_m2": 12328.057049721674,
+          "candidate_overlap_fraction": 0.9999999999999999,
+          "association": "spacetime_precise_polygon_overlap",
+          "geometry_source": "CMR published plume polygon vertices",
+          "area_crs": "EPSG:32613",
+          "independent_corroboration": false
+        }
+      ],
+      "same_acquisition_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20240212t214832p14024-G",
+          "catalog_record_id": "5f778dbd-686f-4ef6-b449-2426fe130496",
+          "source_point": [
+            -102.51816177093173,
+            32.01440715965484
+          ],
+          "observed_at": "2024-02-12T21:48:32Z",
+          "point_to_component_distance_m": 284.09174035103007,
+          "time_difference_seconds": 0.0,
+          "same_acquisition_time_window": true,
+          "different_calendar_date": false,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20240212t214832p14024-G",
+        "source_point": [
+          -102.51816177093173,
+          32.01440715965484
+        ],
+        "point_to_component_distance_m": 284.09174035103007
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 156,
+        "contrast_sigma": 8.469542962502913,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 0.8327763378620148,
+      "sensor_uncertainty_median_ppm_m": 502.3357849121094,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 4,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": null,
+        "quality_mask_sha256_recomputed": "a0d469d2d6f7fe9da289ee8594c0cbedad0770d516c7d055fb5bb6049f49720b",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Published same-EMIT observation association; no independent atmospheric confirmation."
+    },
+    {
+      "candidate_id": "MH-12-0001",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002",
+      "observed_at": "2024-08-27T15:57:22Z",
+      "scene_role": "search",
+      "initial_category": "E",
+      "category_after_audit": "E",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "medium",
+      "review_priority_score": 3,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 21787.511363786507,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002/EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002.tif",
+          "sha256": "385765a1d1b7d4187fd4de676bc11196949bf0af0d0ce0f5a0ab7752436d9588",
+          "bytes": 13453163,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002/EMIT_L2B_CH4SENS_002_20240827T155722_2424010_002.tif",
+          "sha256": "a168218985791867bf1ad89bbdc477942ec0fd5597d83ed2d611d0a78457cda8",
+          "bytes": 11723993,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002/EMIT_L2B_CH4UNCERT_002_20240827T155722_2424010_002.tif",
+          "sha256": "9f936e8f67c3fdf293e6cedc6aead30ec3280d1537e992d9e82b55e5f8acfeb5",
+          "bytes": 11709327,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240827T155722_2424010_002/EMIT_L2A_MASK_001_20240827T155722_2424010_002.nc",
+          "sha256": "b35148c203acfcf72fb405ec842e6fe15c8739f9625722938d5510d88013dad2",
+          "bytes": 48426251,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [
+        {
+          "catalog_id": "emi20240827t155722p10002-A",
+          "catalog_record_id": "7b38321e-6b06-4859-aaf9-ad127f411568",
+          "source_point": [
+            -103.24761100520706,
+            31.011149092172417
+          ],
+          "point_to_component_distance_m": 12.255692235291049,
+          "time_difference_seconds": 0.0,
+          "association": "same_acquisition_neighborhood",
+          "source_url": "https://data.carbonmapper.org/"
+        }
+      ],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20240827t155722p10002-A",
+          "catalog_record_id": "7b38321e-6b06-4859-aaf9-ad127f411568",
+          "source_point": [
+            -103.24761100520706,
+            31.011149092172417
+          ],
+          "observed_at": "2024-08-27T15:57:22Z",
+          "point_to_component_distance_m": 12.255692235291049,
+          "time_difference_seconds": 0.0,
+          "same_acquisition_time_window": true,
+          "different_calendar_date": false,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "other_date_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20240823t173421p11026-A",
+          "catalog_record_id": "c9868f9e-82a6-484c-b971-df4af8a1cc42",
+          "source_point": [
+            -103.24692316760431,
+            31.01148222608748
+          ],
+          "observed_at": "2024-08-23T17:34:21Z",
+          "point_to_component_distance_m": 0.0,
+          "time_difference_seconds": 339781.0,
+          "same_acquisition_time_window": false,
+          "different_calendar_date": true,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20240827t155722p10002-A",
+        "source_point": [
+          -103.24761100520706,
+          31.011149092172417
+        ],
+        "point_to_component_distance_m": 12.255692235291049
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 181,
+        "contrast_sigma": 9.423345003771221,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 1.083314061164856,
+      "sensor_uncertainty_median_ppm_m": 442.5467224121094,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 7,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": 157.75399096608018,
+        "quality_mask_sha256_recomputed": "b35148c203acfcf72fb405ec842e6fe15c8739f9625722938d5510d88013dad2",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "near_region_boundary_catalog_outside_roi_not_excluded",
+        "other_date_catalog_source_within_1km",
+        "quality_excluded_pixel_neighborhood_within_1_5km"
+      ],
+      "review_flag_notes": [
+        "The baseline boundary flag retains its original wording. Per-scene catalog context now includes source points outside the ROI; the flag indicates proximity, not a proven missing-reference gap."
+      ],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Published same-EMIT observation association; no independent atmospheric confirmation."
+    },
+    {
+      "candidate_id": "MH-15-0004",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032",
+      "observed_at": "2025-04-12T21:34:17Z",
+      "scene_role": "search",
+      "initial_category": "E",
+      "category_after_audit": "E",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "medium",
+      "review_priority_score": 1,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 34161.69196265687,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032/EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032.tif",
+          "sha256": "0cd8c74a2a0f6e775bea87eea32ffea9b3632df0ee9b1978e61d13ba4cfe3a75",
+          "bytes": 13425879,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032/EMIT_L2B_CH4SENS_002_20250412T213417_2510214_032.tif",
+          "sha256": "7846980eda3197dbf8b79a2c061ddcc43da0165749a0cbb66e5a5971b7b2e630",
+          "bytes": 11695974,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032/EMIT_L2B_CH4UNCERT_002_20250412T213417_2510214_032.tif",
+          "sha256": "f82d92d063d1d84eaaa6302a6319213f7f8fbf2751c1656f3403fd4ff7535436",
+          "bytes": 11629920,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250412T213417_2510214_032/EMIT_L2A_MASK_001_20250412T213417_2510214_032.nc",
+          "sha256": "6e59ba7a257bc28811d83aa071ace75461ce0ad124f9e036374c4047cb8b5e53",
+          "bytes": 48863049,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [
+        {
+          "catalog_id": "emi20250412t213417p14032-A",
+          "catalog_record_id": "4a787436-0ade-4bce-9f5b-edf574746d80",
+          "source_point": [
+            -103.16131334472699,
+            31.232014481056027
+          ],
+          "point_to_component_distance_m": 72.2082236970108,
+          "time_difference_seconds": 0.0,
+          "association": "same_acquisition_neighborhood",
+          "source_url": "https://data.carbonmapper.org/"
+        }
+      ],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20250412t213417p14032-A",
+          "catalog_record_id": "4a787436-0ade-4bce-9f5b-edf574746d80",
+          "source_point": [
+            -103.16131334472699,
+            31.232014481056027
+          ],
+          "observed_at": "2025-04-12T21:34:17Z",
+          "point_to_component_distance_m": 72.2082236970108,
+          "time_difference_seconds": 0.0,
+          "same_acquisition_time_window": true,
+          "different_calendar_date": false,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250412t213417p14032-A",
+        "source_point": [
+          -103.16131334472699,
+          31.232014481056027
+        ],
+        "point_to_component_distance_m": 72.2082236970108
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 204,
+        "contrast_sigma": 10.462958712600658,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 0.9682458639144897,
+      "sensor_uncertainty_median_ppm_m": 404.7496643066406,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 11,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": 1025.2367938409266,
+        "quality_mask_sha256_recomputed": "6e59ba7a257bc28811d83aa071ace75461ce0ad124f9e036374c4047cb8b5e53",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "quality_excluded_pixel_neighborhood_within_1_5km"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Published same-EMIT observation association; no independent atmospheric confirmation."
+    },
+    {
+      "candidate_id": "MH-16-0004",
+      "scene_id": "EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030",
+      "observed_at": "2025-04-20T18:23:09Z",
+      "scene_role": "search",
+      "initial_category": "E",
+      "category_after_audit": "E",
+      "audit_reclassification": false,
+      "novelty_established": false,
+      "independent_corroboration": false,
+      "review_priority": "medium",
+      "review_priority_score": 1,
+      "contract_checks_passed": true,
+      "contract_errors": [],
+      "geometry_within_roi": true,
+      "outside_roi_area_m2": 0.0,
+      "area_m2": 18338.487351455908,
+      "source_files_checked": [
+        {
+          "kind": "enhancement",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030/EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030.tif",
+          "sha256": "75b65bf6e7e1b22433e87722dde6e24dce999be24c71f3e016a0339061a8203c",
+          "bytes": 13542062,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "sensitivity",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030/EMIT_L2B_CH4SENS_002_20250420T182309_2511012_030.tif",
+          "sha256": "08614d23177d1e8852f1085b2ba8bdc8f3d0e8db06220a5ad68cc4e59794c1df",
+          "bytes": 11578243,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "uncertainty",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030/EMIT_L2B_CH4UNCERT_002_20250420T182309_2511012_030.tif",
+          "sha256": "d28cae3eed3bde613f9f5d5d5ceea2aa8414fa58c9c61444bbdbc36ee33d63be",
+          "bytes": 11578593,
+          "raw_rehash_in_this_audit": false
+        },
+        {
+          "kind": "quality",
+          "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250420T182309_2511012_030/EMIT_L2A_MASK_001_20250420T182309_2511012_030.nc",
+          "sha256": "2f84289dd904767a3b4b278ff89bd29ae13a942a6f5ba43a9f4f388ff3ba2184",
+          "bytes": 48540643,
+          "raw_rehash_in_this_audit": true
+        }
+      ],
+      "carbon_mapper_same_acquisition_matches": [
+        {
+          "catalog_id": "emi20250420t182309p12030-B",
+          "catalog_record_id": "a94f79a2-414b-4016-a996-160d618989a5",
+          "source_point": [
+            -104.04882470392742,
+            32.67523445810943
+          ],
+          "point_to_component_distance_m": 0.0,
+          "time_difference_seconds": 0.0,
+          "association": "same_acquisition_neighborhood",
+          "source_url": "https://data.carbonmapper.org/"
+        }
+      ],
+      "nasa_precise_outline_matches": [],
+      "same_acquisition_catalog_context_within_1km": [
+        {
+          "catalog_id": "emi20250420t182309p12030-B",
+          "catalog_record_id": "a94f79a2-414b-4016-a996-160d618989a5",
+          "source_point": [
+            -104.04882470392742,
+            32.67523445810943
+          ],
+          "observed_at": "2025-04-20T18:23:09Z",
+          "point_to_component_distance_m": 0.0,
+          "time_difference_seconds": 0.0,
+          "same_acquisition_time_window": true,
+          "different_calendar_date": false,
+          "interpretation": "finite-catalog spatial context; not independent confirmation or source attribution"
+        }
+      ],
+      "other_date_catalog_context_within_1km": [],
+      "nearest_same_acquisition_catalog_source": {
+        "catalog_id": "emi20250420t182309p12030-B",
+        "source_point": [
+          -104.04882470392742,
+          32.67523445810943
+        ],
+        "point_to_component_distance_m": 0.0
+      },
+      "potential_same_event_group": null,
+      "spatial_recurrence_pairs": [],
+      "local_annulus": {
+        "pixel_count": 168,
+        "contrast_sigma": 6.440237348464646,
+        "missing_or_insufficient": false,
+        "weak_contrast": false,
+        "interpretation": "robust spatial diagnostic, not a calibrated probability"
+      },
+      "sensitivity_median": 0.9269435405731201,
+      "sensor_uncertainty_median_ppm_m": 308.1243133544922,
+      "quality_exclusion_context": {
+        "excluded_component_pixels": 0,
+        "component_pixels_checked": 6,
+        "nearest_excluded_quality_pixel_center_distance_m_within_1500m": 1242.3433807648794,
+        "quality_mask_sha256_recomputed": "2f84289dd904767a3b4b278ff89bd29ae13a942a6f5ba43a9f4f388ff3ba2184",
+        "proximity_definition": "UTM13 component polygon to nearest five-flag/GLT-excluded pixel center; approximate at half-pixel scale",
+        "limitation": "Proximity alone does not establish contamination or identify which quality flag caused exclusion."
+      },
+      "review_flags": [
+        "quality_excluded_pixel_neighborhood_within_1_5km"
+      ],
+      "review_flag_notes": [],
+      "checked": [
+        "frozen selection and acquisition timestamp",
+        "manifest/ledger hash metadata and actual file size",
+        "candidate geometry, ROI and centroid",
+        "recomputed CM point and NASA precise-outline associations",
+        "recomputed five-flag GLT quality support and exclusion-neighborhood context",
+        "local-annulus and sensitivity diagnostics",
+        "component-neighbor and other-date catalog context",
+        "absence of facility and rate claims"
+      ],
+      "unchecked": [
+        "independent radiance/spectral retrieval verification",
+        "surface-reflectance and mineral-confounding comparison",
+        "independent wind field and plume-direction consistency",
+        "independent satellite or ground observation",
+        "facility identification and attribution",
+        "emission-rate estimation"
+      ],
+      "alternative_explanations": [
+        "surface spectral retrieval artifact",
+        "residual clouds or shadow",
+        "image striping",
+        "multiple testing and retrieval noise",
+        "physical plume enhancement requiring independent spectral confirmation",
+        "fragment or tail of a previously cataloged emission outside the 300m association tolerance",
+        "surface/mineral spectral interference or persistent background structure",
+        "residual contamination near a quality-excluded region"
+      ],
+      "evidence_assessment": "Published same-EMIT observation association; no independent atmospheric confirmation."
+    }
+  ],
+  "unchecked_for_every_component": [
+    "independent radiance/spectral retrieval verification",
+    "surface-reflectance and mineral-confounding comparison",
+    "independent wind field and plume-direction consistency",
+    "independent satellite or ground observation",
+    "facility identification and attribution",
+    "emission-rate estimation"
+  ],
+  "limitations": [
+    "Nearby same-event components may be plume fragments, separate sources, or common artifacts.",
+    "Catalog context outside 300m is an alternative explanation, not an automatic match.",
+    "Cross-date spatial recurrence can indicate a recurring source or persistent surface artifact.",
+    "Category E describes a catalog association; Category C does not establish novelty.",
+    "No heuristic flag alone assigns Category D or confirms a methane plume."
+  ]
+}

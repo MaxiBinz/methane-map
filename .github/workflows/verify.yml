@@ -1,0 +1,26 @@
+name: Verify code and publication safety
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Check published files for credentials and raw data
+        run: python scripts/check_publication.py --tracked
+      - name: Install recorded scientific dependencies
+        run: |
+          python -m pip install -r requirements.lock.txt
+          python -m pip install --no-deps -e .
+      - name: Run essential software tests
+        run: python -m pytest -q

@@ -1,0 +1,83 @@
+{
+  "checked_at": "2026-10-19T07:38:00.227582+00:00",
+  "status": "pass",
+  "tests": {
+    "tests": 56,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "verified_input_files": 80,
+  "logged_scientific_data_transfer_bytes": 1772660316,
+  "data_limit_bytes": 5000000000,
+  "metadata_note": "Public metadata/API response bodies are additional small transfers; logged scientific data remain far below the cap",
+  "requirements": [
+    {
+      "id": 1,
+      "requirement": "pipeline runs on real observations",
+      "evidence": "20 frozen full scenes; 80 hashed inputs; reconciled metric outputs",
+      "status": "proved"
+    },
+    {
+      "id": 2,
+      "requirement": "code and essential tests execute",
+      "evidence": "JUnit test receipt and successful complete local analysis replay",
+      "status": "proved"
+    },
+    {
+      "id": 3,
+      "requirement": "known examples examined",
+      "evidence": "2 positive scenes, 2 catalog-negative controls, detailed miss diagnostics",
+      "status": "proved; detector sensitivity limitation documented"
+    },
+    {
+      "id": 4,
+      "requirement": "at least one bounded search executed",
+      "evidence": "16 search granules clipped to fixed ROI",
+      "status": "proved"
+    },
+    {
+      "id": 5,
+      "requirement": "all generated candidates initially assessed",
+      "evidence": "14 reconciled dossiers, adversarial records and visual-review entries",
+      "status": "proved"
+    },
+    {
+      "id": 6,
+      "requirement": "limitations documented",
+      "evidence": "validation report, methodology, open questions, per-candidate unchecked alternatives",
+      "status": "proved"
+    },
+    {
+      "id": 7,
+      "requirement": "final package exists and is reproducible",
+      "evidence": "Python package, lock file, frozen hashes, scripts, exports, maps and local interactive report",
+      "status": "proved"
+    }
+  ],
+  "scientific_validation_gate": "Strong discovery claims remain closed: limited/failed conservative known-example recovery; no independently corroborated new source",
+  "novel_discovery_required_for_completion": false,
+  "required_artifact_hashes": {
+    "README.md": "e2b603a62dd36b318e4d9647d2074fd89877d88dcb418f9b5f99c746f8c0173f",
+    "research/literature_review.md": "9914b03eba51967a8795f3cf4fcbf9366dd501e9230bd7d32466297a8a85a3ab",
+    "research/research_questions.md": "08d50fc5b781859ca2672d2634ccd3ca97c8b559266dc7e68d1e0637455b6370",
+    "research/methodology.md": "167d9461dc4fa4396cbfc9fd45a7a437be4726b93c7394f6add6b02ed214f614",
+    "research/validation_protocol.md": "a77052862017fb1755a109fd1bacb278f184dfdb8c1f0cce7ef240769f1005ae",
+    "research/data_inventory.md": "9a2b75541fb27c7b46280bc26dde8fb935c0028ac40b00c9a2e19550d5ef7b68",
+    "reports/executive_summary.md": "8c567e201d80e9b99fef54bf53217bf5c607c42cb4eb596810178d08d9e1224d",
+    "reports/validation_report.md": "7816130aa354fd49cbb5ffdc6ae35a2ef38a000eb9f10145a93d2ec12377fd14",
+    "reports/investigative_article.md": "da8de8177d51110d6ac693ee1480af2321e5c61efbc8b7876dc20785dd362bb0",
+    "reports/component_visual_review.md": "319e2afcd8bc2ee681693b6ff61606fbdebe241707e978681505a07ad8745e8c",
+    "outputs/candidates.csv": "b5feb046a4ccf8b2efffa374f7ae5dff5ce31e07507e5a26af172bb803fa7665",
+    "outputs/candidates.geojson": "f74865e7df73d572c06ee561109777522db19d7136e02cb48cc653dca7619ff7",
+    "outputs/known_diagnostics.json": "3fb5a10e1c5a6aa85d6bdd1379502e735b693cfe75f01954fb497481d0cb5db4",
+    "outputs/adversarial_audit.json": "14f48d2ad7f9864b0528761532453436e68b0118b21b8c1c7d3e47cc0b6bfe44",
+    "outputs/reproducibility.json": "9835a116947499dfd50a44133221c5012eb21b63599eeef5b82bacb9048d9139",
+    "outputs/ui_verification.json": "4d2578ca48a229465baf95bb5a06206739d9714fdedbc5d2588c3b2979567191",
+    "PROJECT_STATE.md": "845cf509d052142cd90e7f7b85c353171dba47f010ac7a542afb3933e5dcc5e3",
+    "EXPERIMENT_LOG.md": "a6084812df593ee19aa153f93102794a0862b10af7e070af391f39d1242c1b17",
+    "FINDINGS.md": "2252412fd66b2b6ef050fac98e08b973e58a680092b1788e0fd0ca565d2abad1",
+    "OPEN_QUESTIONS.md": "a1165f8ea947a2a0e1a204f12c1636e6f895a9439e54169e7e75b9f3ee6595e8",
+    "report_app/dist/index.html": "da57682aa0997d06a0ae90d74e8905049e0cf633ad33ffff5007669728342401"
+  }
+}

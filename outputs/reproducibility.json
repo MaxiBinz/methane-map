@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-10-19T07:17:05.066146+00:00",
+  "status": "pass",
+  "comparison": "exact equality",
+  "scenes": 20,
+  "components": 14,
+  "candidate_fields_compared": [
+    "candidate_id",
+    "scene_id",
+    "observed_at",
+    "role",
+    "category",
+    "latitude",
+    "longitude",
+    "geometry",
+    "pixel_count",
+    "peak_ppm_m",
+    "mean_ppm_m",
+    "median_ppm_m",
+    "median_sensor_snr",
+    "area_m2",
+    "sensor_uncertainty_median_ppm_m",
+    "local_annulus_contrast_sigma",
+    "sensitivity_median"
+  ],
+  "scene_metric_records_compared": "all fields",
+  "source_expected_sha256": "7539b7eff5c14e1c8a9ac4834255984e252fc1805485f320097bf94fff2338a8",
+  "current_manifest_sha256": "2917a198c920428cb3666850836693af528d55837fdfdf57c733910dbe6ed93e",
+  "command": ".venv/bin/methane-hunter analyze && PYTHONPATH=src .venv/bin/python scripts/check_replay.py",
+  "non_numeric_metadata_correction": "near_region_boundary flag replaces outdated wording about missing outside-ROI catalog coverage; no numeric criterion or category changed",
+  "scope_limit": "Replaying one implementation with identical inputs verifies reproducibility, not independent physical confirmation"
+}

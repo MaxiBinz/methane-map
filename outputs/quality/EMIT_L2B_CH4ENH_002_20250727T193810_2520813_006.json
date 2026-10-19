@@ -1,0 +1,103 @@
+{
+  "selected_flags": [
+    "Cloud Flag",
+    "Cirrus Flag",
+    "Water Flag",
+    "Spacecraft Flag",
+    "Dilated Cloud Flag"
+  ],
+  "available_flag_labels": [
+    "Cloud flag",
+    "Cirrus flag",
+    "Water flag",
+    "Spacecraft Flag",
+    "Dilated Cloud Flag",
+    "AOD550",
+    "H2O (g cm-2)",
+    "Aggregate Flag"
+  ],
+  "glt_index_convention": "one-based x=sample/column, y=line/row; zero=nodata",
+  "glt_shape": [
+    1891,
+    2295
+  ],
+  "raw_mask_shape": [
+    1280,
+    1242,
+    8
+  ],
+  "valid_glt_pixels": 2170764,
+  "invalid_glt_pixels": 2169081,
+  "unknown_quality_pixels": 0,
+  "usable_pixels": 2084459,
+  "flag_counts_on_glt_grid": {
+    "Cloud flag": {
+      "flagged_pixels": 2226,
+      "unknown_pixels": 0
+    },
+    "Cirrus flag": {
+      "flagged_pixels": 0,
+      "unknown_pixels": 0
+    },
+    "Water flag": {
+      "flagged_pixels": 639,
+      "unknown_pixels": 0
+    },
+    "Spacecraft Flag": {
+      "flagged_pixels": 0,
+      "unknown_pixels": 0
+    },
+    "Dilated Cloud Flag": {
+      "flagged_pixels": 86267,
+      "unknown_pixels": 0
+    }
+  },
+  "usable_fraction_of_glt_footprint": 0.9602421083084113,
+  "mask_path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250727T193810_2520813_006/EMIT_L2A_MASK_001_20250727T193810_2520813_006.nc",
+  "mask_sha256": "5876657497f08f42fb468413de27b73a0a98af9ab97ebc9c555d3d4867a9dfe7",
+  "enhancement_path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20250727T193810_2520813_006/EMIT_L2B_CH4ENH_002_20250727T193810_2520813_006.tif",
+  "checked_at": "2026-10-19T07:16:41.245082+00:00",
+  "source_transform": [
+    0.000542232520256367,
+    -0.0,
+    -105.190131737134,
+    -0.0,
+    -0.000542232520256367,
+    33.0330236124205
+  ],
+  "target_transform": [
+    0.000542232520256367,
+    0.0,
+    -105.190131737134,
+    0.0,
+    -0.000542232520256367,
+    33.0330236124205
+  ],
+  "crs": "EPSG:4326",
+  "target_shape": [
+    1891,
+    2295
+  ],
+  "source_grid_window_rc": [
+    0,
+    0,
+    1891,
+    2295
+  ],
+  "target_usable_pixels": 2084459,
+  "target_usable_fraction": 0.48030724599611274,
+  "target_glt_footprint_pixels": 2170764,
+  "target_usable_fraction_of_glt_footprint": 0.9602421083084113,
+  "mapping": "exact one-based GLT lookup plus integer grid window; no resampling",
+  "source_references": [
+    "https://nasa.github.io/LPDAAC-Data-Resources/external/How_to_use_EMIT_Quality_data.html",
+    "https://github.com/nasa/EMIT-Data-Resources/blob/main/python/modules/emit_tools.py",
+    "https://lpdaac.usgs.gov/documents/1569/EMITL2ARFL_User_Guide_v1.pdf"
+  ],
+  "limitations": [
+    "L2A flags cannot rule out all cloud or surface spectral retrieval artifacts",
+    "AOD and H2O continuous data bands are not treated as binary masks",
+    "Per-wavelength interpolation band_mask is not evaluated here",
+    "Passing quality flags does not independently confirm methane or a source"
+  ]
+}

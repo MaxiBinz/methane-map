@@ -1,0 +1,158 @@
+{
+  "candidate_id": "MH-09-0004",
+  "scene_id": "EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024",
+  "observed_at": "2024-02-12T21:48:32Z",
+  "role": "search",
+  "satellite": "ISS",
+  "instrument": "EMIT",
+  "method": "EMIT V002 sensitivity-corrected enhancement; local robust background and sensor-noise screen",
+  "latitude": 32.01281312555814,
+  "longitude": -102.5148920403194,
+  "location_type": "enhancement support centroid, not an inferred source",
+  "label": 4,
+  "pixel_count": 4,
+  "centroid_row": 964.0,
+  "centroid_col": 1562.25,
+  "peak_row": 963,
+  "peak_col": 1562,
+  "bbox_rc": [
+    963,
+    1562,
+    966,
+    1564
+  ],
+  "peak_ppm_m": 3259.9757986438676,
+  "mean_ppm_m": 3081.275218202323,
+  "median_ppm_m": 3030.3300485649233,
+  "median_excess_ppm_m": 3073.422510944678,
+  "median_sensor_snr": 6.113861546281276,
+  "flags": [],
+  "area_m2": 12328.057049721676,
+  "sensitivity_median": 0.8327763378620148,
+  "sensor_uncertainty_median_ppm_m": 502.3357849121094,
+  "local_annulus_pixels": 156,
+  "local_annulus_median_ppm_m": 6.865601211291218,
+  "local_annulus_robust_sigma_ppm_m": 356.9808265616425,
+  "local_annulus_contrast_sigma": 8.469542962502913,
+  "catalog_matches": [
+    {
+      "catalog_id": "emi20240212t214832p14024-G",
+      "catalog_record_id": "5f778dbd-686f-4ef6-b449-2426fe130496",
+      "source_point": [
+        -102.51816177093173,
+        32.01440715965484
+      ],
+      "point_to_component_distance_m": 284.09174035103007,
+      "time_difference_seconds": 0.0,
+      "association": "same_acquisition_neighborhood",
+      "source_url": "https://data.carbonmapper.org/"
+    }
+  ],
+  "nasa_plume_outline_matches": [
+    {
+      "catalog_id": "EMIT_L2B_CH4PLM_002_20240212T214832_002706",
+      "granule_id": "EMIT_L2B_CH4PLM_002_20240212T214832_002706",
+      "source": "NASA EMIT methane plume complexes V002",
+      "doi": "https://doi.org/10.5067/EMIT/EMITL2BCH4PLM.002",
+      "cmr_concept_id": "G3961083634-LPCLOUD",
+      "observed_at": "2024-02-12T21:48:32Z",
+      "time_difference_seconds": 0.0,
+      "overlap_area_m2": 12328.057049721674,
+      "candidate_overlap_fraction": 0.9999999999999999,
+      "association": "spacetime_precise_polygon_overlap",
+      "geometry_source": "CMR published plume polygon vertices",
+      "area_crs": "EPSG:32613",
+      "independent_corroboration": false
+    }
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -102.51529871470954,
+          32.013626474338515
+        ],
+        [
+          -102.51529871470954,
+          32.01199977677775
+        ],
+        [
+          -102.5147564821893,
+          32.01199977677775
+        ],
+        [
+          -102.5147564821893,
+          32.01254200929801
+        ],
+        [
+          -102.51421424966904,
+          32.01254200929801
+        ],
+        [
+          -102.51421424966904,
+          32.01308424181826
+        ],
+        [
+          -102.5147564821893,
+          32.01308424181826
+        ],
+        [
+          -102.5147564821893,
+          32.013626474338515
+        ],
+        [
+          -102.51529871470954,
+          32.013626474338515
+        ]
+      ]
+    ]
+  },
+  "category": "E",
+  "novelty": "associated with a published observation",
+  "possible_source": null,
+  "facility": null,
+  "emission_rate_kg_h": null,
+  "independent_sensor_corroboration": false,
+  "quality_assessment": "passes five named L2A binary flags and sensor uncertainty/sensitivity screening",
+  "alternative_explanations": [
+    "surface spectral retrieval artifact",
+    "residual clouds or shadow",
+    "image striping",
+    "multiple testing and retrieval noise"
+  ],
+  "unchecked": [
+    "independent radiance spectral fit",
+    "surface reflectance comparison",
+    "independent wind field",
+    "another sensor",
+    "facility attribution"
+  ],
+  "initial_assessment": "published same-acquisition neighborhood or NASA outline association; not independent confirmation",
+  "source_files": {
+    "enhancement": {
+      "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024.tif",
+      "sha256": "cf48297d0c0e5df8d6a462e73516f3314e8465af9ca139b187b3f6c5fc8d1d12",
+      "bytes": 13491176,
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2BCH4ENH.002/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024.tif"
+    },
+    "sensitivity": {
+      "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4SENS_002_20240212T214832_2404314_024.tif",
+      "sha256": "24fa547022278d6e8fd1be335be0e876b945d137632c15c6913c74a25196ab24",
+      "bytes": 11773373,
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2BCH4ENH.002/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4SENS_002_20240212T214832_2404314_024.tif"
+    },
+    "uncertainty": {
+      "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4UNCERT_002_20240212T214832_2404314_024.tif",
+      "sha256": "3772d88a46c7f598c94b37ee2d69f934455ecfb1204871fdaa34c63b0a742e2b",
+      "bytes": 11751266,
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2BCH4ENH.002/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2B_CH4UNCERT_002_20240212T214832_2404314_024.tif"
+    },
+    "quality": {
+      "path": "data/raw/nasa/EMIT_L2B_CH4ENH_002_20240212T214832_2404314_024/EMIT_L2A_MASK_001_20240212T214832_2404314_024.nc",
+      "sha256": "a0d469d2d6f7fe9da289ee8594c0cbedad0770d516c7d055fb5bb6049f49720b",
+      "bytes": 47758952,
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20240212T214832_2404314_024/EMIT_L2A_MASK_001_20240212T214832_2404314_024.nc"
+    }
+  }
+}
